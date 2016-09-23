@@ -16,5 +16,5 @@ angular.module('app', [
       template: require('./tpl/app.html')
     })
 
-  // $urlRouterProvider.otherwise('/');
+  $urlRouterProvider.otherwise('/');
 })
