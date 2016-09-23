@@ -22,3 +22,27 @@ html, body {
   justify-content: space-around;
   align-items: center;
 }
+
+/************* Admin Page CSS **********************/
+.form-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 400px;
+  border: 1px solid blue;
+}
+
+.form-inputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
