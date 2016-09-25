@@ -1,8 +1,12 @@
 class NavbarController {
 
-  constructor() {
-    console.log('text');
+  constructor($scope, $stateParams) {
+    console.log('text', $scope, $stateParams);
     
+  }
+
+  _handleClick(e) {
+    console.log('clicked', e);
   }
 
 }
