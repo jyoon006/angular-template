@@ -1,10 +1,4 @@
-var Navbar = angular.module('navbar.directive', [])
-.controller('NavbarController', NavbarController)
-.directive('navbar', NavbarDirective);
-
-function NavbarController() {
-
-}
+import NavbarController from '../../controllers/views/navbar.controller';
 
 function NavbarDirective() {
   return {
@@ -13,9 +7,11 @@ function NavbarDirective() {
 
     },
     controller: 'NavbarController',
-    controllerAs:'Navbar',
+    controllerAs: 'Navbar',
     template: require('../../tpl/navbar.html')
   };
 }
 
-module.exports = Navbar;
+module.exports = angular.module('navbar.directive', [])
+                  .directive('navbar', NavbarDirective)
+                  .controller('NavbarController', NavbarController);
