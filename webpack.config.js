@@ -12,13 +12,9 @@ var config = {
   },
   module : {
     loaders : [
+      { test: /\.json$/, loader: 'json-loader' },
       { test: /\.html$/, loader: "raw-loader" },
-      {
-        test: /\.js$/,
-        include : APP_DIR,
-        loader : 'babel-loader',
-        exclude: /node_modules/
-      }
+      { test: /\.js$/, include : APP_DIR, loader : 'babel-loader', exclude: /node_modules/ }
     ]
   }
 };

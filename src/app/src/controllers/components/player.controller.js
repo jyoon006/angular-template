@@ -1,4 +1,4 @@
-import data from '../../../../data/playerlist.json';
+import data from '../../../data/playerlist.json';
 
 console.log('data', data);
 
@@ -9,9 +9,6 @@ class NavbarController {
     
   }
 
-  _handleClick(e) {
-    console.log('clicked', e);
-  }
 
 }
 

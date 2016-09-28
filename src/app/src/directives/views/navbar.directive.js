@@ -13,5 +13,5 @@ function NavbarDirective() {
 }
 
 export default angular.module('navbar.directive', [])
-                  .directive('navbar', NavbarDirective)
-                  .controller('NavbarController', NavbarController);
+                .directive('navbar', NavbarDirective)
+                .controller('NavbarController', NavbarController);
