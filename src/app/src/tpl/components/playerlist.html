@@ -1,26 +1,48 @@
+<!-- {
+    "Player": "Stephen Curry",
+    "SALARY": "$12,112,359",
+    "POS": "PG",
+    "TEAM": "GSW",
+    "G": 79,
+    "GS": 79,
+    "MP": 34.2,
+    "FGP": 0.504,
+    "3PP": 0.454,
+    "FTP": 0.908,
+    "TRB": 5.4,
+    "AST": 6.7,
+    "STL": 2.1,
+    "BLK": 0.2,
+    "TO": 3.3,
+    "PF": 2,
+    "PPG": 30.1
+  }, -->
+
+
 <div class="playerlist-container">
   <table>
     <thead>
-      <tr>
-        <th>Player</th>
-        <th>Salary</th>
-        <th>Pos</th>
-        <th>Team</th>
+      <tr ng-click="Player._handleSort($event)">
+        <th name="Player">Player</th>
+        <th>SALARY</th>
+        <th>POS</th>
+        <th>TEAM</th>
         <th>MP</th>
         <th>G</th>
         <th>GS</th>
         <th>FG%</th>
+        <th>FT%</th>
         <th>3P%</th>
-        <th>Reb</th>
-        <th>Stl</th>
-        <th>Ast</th>
-        <th>Blk</th>
+        <th>TRB</th>
+        <th>STL</th>
+        <th>AST</th>
+        <th>BLK</th>
         <th>TO</th>
         <th>PPG</th>
       </tr>
     </thead>
     <tbody>
-      <tr ng-repeat="player in Player.playerlist | filter: Player.query" ng-click="Player._handleClick($index)" ng-class="{'selected':$index == Player.selectedRow}">
+      <tr ng-repeat="player in Player.playerlist | orderBy: Player.category: Player.reverse | filter: Player.query" ng-click="Player._handleClick($index)" ng-class="{'selected':$index == Player.selectedRow}">
          <td> {{ player.Player }} </td>
          <td> {{ player.SALARY }} </td>
          <td> {{ player.POS }} </td>
@@ -29,6 +51,7 @@
          <td> {{ player.G }} </td>
          <td> {{ player.GS }} </td>
          <td> {{ player.FGP }} </td>
+         <td> {{ player.FTP || 'N/A'}} </td>
          <td> {{ player['3PP'] }} </td>
          <td> {{ player.TRB}} </td>
          <td> {{ player.STL }} </td>

@@ -19,6 +19,12 @@ class PlayerlistController extends SearchbarController {
     this.selectedRow = i;
   }
 
+  _handleSort(e) {
+    console.log('i', e);
+    this.category = e.target.innerText;
+    this.reverse = !this.reverse;
+  }
+
 
 }
 
