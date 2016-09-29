@@ -1,4 +1,4 @@
-<div  class="playerlist-container">
+<div class="playerlist-container">
   <table>
     <thead>
       <tr>
@@ -20,40 +20,23 @@
       </tr>
     </thead>
     <tbody>
-      <tr ng-repeat="player in Player.playerlist">
-         <td> {{ player.Player }}   </td>
-         <td> {{ player.SALARY }}   </td>
-         <td> {{ player.POS }}      </td>
-         <td> {{ player.TEAM }}     </td>
-         <td> {{ player.MP }}       </td>
-         <td> {{ player.G }}        </td>
-         <td> {{ player.GS }}       </td>
-         <td> {{ player.FGP }}      </td>
-         <td> {{ player['3PP'] }}    </td>
-         <td> {{ player.TRB}}       </td>
-         <td> {{ player.STL }}     </td>
-         <td> {{ player.AST }}     </td>
-         <td> {{ player.BLK }}     </td>
-         <td> {{ player.TO }}      </td>
-         <td> {{ player.PPG }}     </td>
+      <tr ng-repeat="player in Player.playerlist | filter: Player.query" ng-click="Player._handleClick($index)" ng-class="{'selected':$index == Player.selectedRow}">
+         <td> {{ player.Player }} </td>
+         <td> {{ player.SALARY }} </td>
+         <td> {{ player.POS }} </td>
+         <td> {{ player.TEAM }} </td>
+         <td> {{ player.MP }} </td>
+         <td> {{ player.G }} </td>
+         <td> {{ player.GS }} </td>
+         <td> {{ player.FGP }} </td>
+         <td> {{ player['3PP'] }} </td>
+         <td> {{ player.TRB}} </td>
+         <td> {{ player.STL }} </td>
+         <td> {{ player.AST }} </td>
+         <td> {{ player.BLK }} </td>
+         <td> {{ player.TO }} </td>
+         <td> {{ player.PPG }} </td>
       </tr>
     </tbody>
   </table>
-
-<!--   <div> {{ player.Player }} </div>
-  <div> {{ player.SALARY }}</div>
-  <div> {{ player.POS }}</div>
-  <div> {{ player.TEAM }}</div>
-  <div> {{ player.MP }}</div>
-  <div> {{ player.G }}</div>
-  <div> {{ player.GS }}</div>
-  <div> {{ player.FGP }}</div>
-  <div> {{ player['3PP'] }}</div>
-  <div> {{ player.TRB}}</div>
-  <div> {{ player.STL }}</div>
-  <div> {{ player.AST }}</div>
-  <div> {{ player.BLK }}</div>
-  <div> {{ player.TO }}</div>
-  <div> {{ player.PPG }}</div>
- -->
 </div>

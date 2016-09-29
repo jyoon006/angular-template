@@ -38,6 +38,39 @@ html, body {
   align-items: center;
 }
 
+table {
+  width: 100vw;
+  border-spacing: 0 5px;
+}
+
+th, td {
+  border-bottom: 1px solid black;
+  width: auto;
+}
+
+td {
+  text-align: center;
+}
+
+.search-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0 50px 0;
+}
+
+.search-container input {
+  margin-left: 5px;
+  font-size: 20px;
+}
+
+.selected {
+  background-color: #808080;
+  color: whitesmoke;
+  font-weight: bold;
+}
+
 /************* Admin Page CSS **********************/
 .form-login {
   display: flex;

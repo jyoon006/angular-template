@@ -1,14 +1,25 @@
 import data from '../../../../data/playerlist.json';
+import SearchbarController from './searchbar.controller';
 
-console.log('data', data);
+// console.log('data', data);
 
-class NavbarController {
+class PlayerlistController extends SearchbarController {
 
-  constructor($scope, $stateParams) {
+  constructor($scope, $rootScope) {
+    super();
+    var vm = this;
     this.playerlist = data;
+    $scope.$on('input-update', function(event, data) {
+      vm.query = data;
+    });
+  }
+
+  _handleClick(i) {
+    console.log('this', i);
+    this.selectedRow = i;
   }
 
 
 }
 
-export default NavbarController;
+export default PlayerlistController;
