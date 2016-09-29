@@ -1,16 +1,14 @@
-import data from '../../../../data/playerlist.json';
-
-console.log('data', data);
-
 class NavbarController {
 
-  constructor($scope, $stateParams) {
-    console.log('text', $scope, $stateParams);
-    
+  constructor($scope, $stateParams, $location) {
+    this.$location = $location;
   }
 
-  _handleClick(e) {
-    console.log('clicked', e);
+  _handleRoute(e) {
+    let route = e.target.innerText.split(" ").join("").toLowerCase();
+
+    if( route === 'playerlist' ) route = '';
+    this.$location.path('/' + route);
   }
 
 }

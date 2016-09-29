@@ -1,12 +1,11 @@
-import data from '../../../data/playerlist.json';
+import data from '../../../../data/playerlist.json';
 
 console.log('data', data);
 
 class NavbarController {
 
   constructor($scope, $stateParams) {
-    console.log('text', $scope, $stateParams);
-    
+    this.playerlist = data;
   }
 
 

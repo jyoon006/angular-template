@@ -9,7 +9,7 @@ html, body {
 
 #navbar-container {
   width: 100vw;
-  height: 80px;
+  height: 60px;
   background: aliceblue;
   display: flex;
   flex-direction: column;
@@ -20,6 +20,21 @@ html, body {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  align-items: center;
+}
+
+.nav-text {
+  text-transform: uppercase;
+  cursor: pointer;
+  font-family: 'Copperplate Gothic Light', sans-serif;
+  font-weight: bold;
+}
+
+
+.playerlist-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   align-items: center;
 }
 

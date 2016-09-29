@@ -8,7 +8,7 @@ function NavbarDirective() {
     },
     controller: 'NavbarController',
     controllerAs: 'Navbar',
-    template: require('../../tpl/navbar.html')
+    template: require('../../tpl/views/navbar.html')
   };
 }
 
