@@ -48,6 +48,10 @@ th, td {
   width: auto;
 }
 
+th {
+  cursor: pointer;
+}
+
 td {
   text-align: center;
 }

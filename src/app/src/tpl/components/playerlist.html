@@ -1,25 +1,4 @@
-<!-- {
-    "Player": "Stephen Curry",
-    "SALARY": "$12,112,359",
-    "POS": "PG",
-    "TEAM": "GSW",
-    "G": 79,
-    "GS": 79,
-    "MP": 34.2,
-    "FGP": 0.504,
-    "3PP": 0.454,
-    "FTP": 0.908,
-    "TRB": 5.4,
-    "AST": 6.7,
-    "STL": 2.1,
-    "BLK": 0.2,
-    "TO": 3.3,
-    "PF": 2,
-    "PPG": 30.1
-  }, -->
-
-
-<div class="playerlist-container">
+<div class="playerlist-container" ng-init="Player._handleData()">
   <table>
     <thead>
       <tr ng-click="Player._handleSort($event)">

@@ -2,6 +2,10 @@ export default function($stateProvider, $urlRouterProvider, $httpProvider) {
   $stateProvider
     .state('home', {
       url: '/',
+      template: require('../tpl/views/home.html')
+    })
+    .state('playerlist', {
+      url: '/playerlist',
       template: require('../tpl/components/app.html')
     })
     .state('myteam', {
