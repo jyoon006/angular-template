@@ -1,3 +1,5 @@
 node_modules
 
 src/app/src/app
+
+configs/auth.js
