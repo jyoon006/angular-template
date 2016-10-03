@@ -1,2 +1,5 @@
 <navbar></navbar>
-<h3>my team </h3>
+<div ng-controller="MyteamController as Myteam" ng-init="Myteam._getTeamData()">
+    <div>user name: {{ Myteam.data.name }}</div>
+    <img src="{{ Myteam.data.photo }}" />
+</div>

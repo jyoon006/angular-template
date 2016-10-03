@@ -6,6 +6,7 @@ import SearchbarController from './searchbar.controller';
 class PlayerlistController {
 
   constructor($scope, $rootScope, $http, Services) {
+    var vm = this;
     this.playerlist = data;
     $scope.$on('input-update', function(event, data) {
       vm.query = data;
@@ -15,21 +16,21 @@ class PlayerlistController {
   }
 
   _handleClick(i) {
-    console.log('this', i);
     this.selectedRow = i;
   }
 
   _handleSort(e) {
-    console.log('i', e);
     this.category = e.target.innerText;
     this.reverse = !this.reverse;
   }
 
   _handleData() {
-    this.Services.get('api/userdata')
-    .then(function(data) {
-      console.log('data', data);
-    });
+    if(!localStorage.getItem('id')) {
+      this.Services.get('google/signin')
+      .then(function( json ) {
+        localStorage.setItem('id', json.data);
+      });
+    }
   }
 
 

@@ -1,29 +1,43 @@
-var passport = require('passport');
-var GoogleStrategy = require('passport-google-oauth').OAuth2Strategy;
-var Auth = require('../../configs/auth');
-var app = require('./server');
+module.exports = function(app, passport, GoogleStrategy, Users, Auth) {
+  passport.serializeUser(function(user, done) {
+    done(null, user[0].id);
+  });
 
-passport.serializeUser(function(user, done) {
-  done(null, user.id);
-});
-
-passport.deserializeUser(function(id, done) {
-  done(null, id)
-});
-
-passport.use(new GoogleStrategy({
-  clientID: Auth.googleAuth.clientID,
-  clientSecret: Auth.googleAuth.clientSecret,
-  callbackURL: Auth.googleAuth.callbackURL
-}, function(accessToken, refreshToken, profile, cb) {
-    console.log(profile, cb);
-    app.get('/api/userdata', function(req, res) {
-      res.json(profile);
+  passport.deserializeUser(function(id, done) {
+    Users.find({ id: id }, function(err, user) {
+      done(err, user);
     });
-    
-    return cb(null, profile);
-  }
-));
-  
-    
-module.exports = passport;
+  });
+
+  passport.use(new GoogleStrategy({
+    clientID: Auth.googleAuth.clientID,
+    clientSecret: Auth.googleAuth.clientSecret,
+    callbackURL: Auth.googleAuth.callbackURL
+  }, function(accessToken, refreshToken, profile, done) {
+
+      app.get('/google/signin', function(req, res) {
+        res.json(profile.id);  
+      })
+
+      Users.find({ id: profile.id }, function(err, user) {
+          if(err) done(err);
+          
+          if(user.length === 0) {
+            Users.create({
+              id: profile.id,
+              name: profile.displayName,
+              email: profile.emails[0].value,
+              photo: profile.photos[0].value
+            }, function(err, user_data) {
+              if(err) return console.error('Error creating new user :', err);
+              else return done(null, user_data);
+            });
+          }
+
+          if(user) {
+            return done(null, user);
+          }
+        });
+    }
+  ));
+}

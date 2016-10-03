@@ -11,12 +11,14 @@ import services from './services/services';
 import Signin from './directives/views/signin.directive';
 import Navbar from './directives/views/navbar.directive';
 import Playerlist from './directives/components/playerlist.directive';
+import Myteam from './directives/components/myteam.directive';
 import Searchbar from './directives/components/searchbar.directive';
 
 angular.module('app', [
   Signin.name,
   Navbar.name,
   Playerlist.name,
+  Myteam.name,
   Searchbar.name,
   uirouter
 ])
