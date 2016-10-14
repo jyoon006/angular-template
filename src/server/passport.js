@@ -17,7 +17,7 @@ module.exports = function(app, passport, GoogleStrategy, Users, Auth) {
 
       app.get('/google/signin', function(req, res) {
         res.json(profile.id);  
-      })
+      });
 
       Users.find({ id: profile.id }, function(err, user) {
           if(err) done(err);

@@ -3,15 +3,15 @@ module.exports = function(app, passport, session, Users) {
   //   console.log("landing page");
   // })
 
-  app.get('/api/signin', function(req, res) {
-    console.log('req session', req.session);
-    if( req.session.cookie._expires === new Date()) {
-      res.send('expired');
-    }
-    else {
-      res.send('active');
-    }
-  });
+  // app.get('/api/signin', function(req, res) {
+  //   console.log('req session', req.session);
+  //   if( req.session.cookie._expires === new Date()) {
+  //     res.send('expired');
+  //   }
+  //   else {
+  //     res.send('active');
+  //   }
+  // });
 
   app.get('/auth/google/logout', function(req, res) {
     req.logOut();

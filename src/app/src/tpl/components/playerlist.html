@@ -21,7 +21,7 @@
       </tr>
     </thead>
     <tbody>
-      <tr ng-repeat="player in Player.playerlist | orderBy: Player.category: Player.reverse | filter: Player.query" ng-click="Player._handleClick($index)" ng-class="{'selected':$index == Player.selectedRow}">
+      <tr ng-repeat="player in Player.playerlist | orderBy: Player.category: Player.reverse | filter: Player.query" ng-click="Player._handleClick($index)" ng-class="{'selected':$index == Player.selectedRow}" ng-dblclick="Player._addPlayer(player)">
          <td> {{ player.Player }} </td>
          <td> {{ player.SALARY }} </td>
          <td> {{ player.POS }} </td>

@@ -1,5 +1,10 @@
 <navbar></navbar>
 <div ng-controller="MyteamController as Myteam" ng-init="Myteam._getTeamData()">
-    <div>user name: {{ Myteam.data.name }}</div>
-    <img src="{{ Myteam.data.photo }}" />
+    <div class="profile-container">
+      <div class="profile-img-container">
+        <img class="profile-img" src="{{ Myteam.data.photo }}" />
+      </div>
+      <div class="profile-name">{{ Myteam.data.name }}</div>
+    </div>
+    
 </div>

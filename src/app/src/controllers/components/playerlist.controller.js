@@ -33,6 +33,10 @@ class PlayerlistController {
     }
   }
 
+  _addPlayer(player) {
+    console.log('player', player);
+  }
+
 
 }
 
