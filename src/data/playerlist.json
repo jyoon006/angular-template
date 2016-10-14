@@ -1,7 +1,7 @@
 [
   {
     "Player": "Stephen Curry",
-    "SALARY": "$12,112,359",
+    "SALARY": 12112359,
     "POS": "PG",
     "TEAM": "GSW",
     "G": 79,
@@ -20,7 +20,7 @@
   },
   {
     "Player": "James Harden",
-    "SALARY": "$26,540,100",
+    "SALARY": 26540100,
     "POS": "SG",
     "TEAM": "HOU",
     "G": 82,
@@ -39,7 +39,7 @@
   },
   {
     "Player": "Kevin Durant",
-    "SALARY": "$26,540,100",
+    "SALARY": 26540100,
     "POS": "SF",
     "TEAM": "GSW",
     "G": 72,
@@ -58,7 +58,7 @@
   },
   {
     "Player": "DeMarcus Cousins",
-    "SALARY": "$16,957,900",
+    "SALARY": 16957900,
     "POS": "C",
     "TEAM": "SAC",
     "G": 65,
@@ -77,7 +77,7 @@
   },
   {
     "Player": "LeBron James",
-    "SALARY": "$30,963,450",
+    "SALARY": 30963450,
     "POS": "SF",
     "TEAM": "CLE",
     "G": 76,
@@ -96,7 +96,7 @@
   },
   {
     "Player": "Damian Lillard",
-    "SALARY": "$24,328,425",
+    "SALARY": 24328425,
     "POS": "PG",
     "TEAM": "POR",
     "G": 75,
@@ -115,7 +115,7 @@
   },
   {
     "Player": "Anthony Davis",
-    "SALARY": "$22,116,750",
+    "SALARY": 22116750,
     "POS": "PF",
     "TEAM": "NOP",
     "G": 61,
@@ -134,7 +134,7 @@
   },
   {
     "Player": "Russell Westbrook",
-    "SALARY": "$26,540,100",
+    "SALARY": 26540100,
     "POS": "PG",
     "TEAM": "OKC",
     "G": 80,
@@ -153,7 +153,7 @@
   },
   {
     "Player": "DeMar DeRozan",
-    "SALARY": "$26,540,100",
+    "SALARY": 26540100,
     "POS": "SG",
     "TEAM": "TOR",
     "G": 78,
@@ -172,7 +172,7 @@
   },
   {
     "Player": "Paul George",
-    "SALARY": "$18,314,532",
+    "SALARY": 18314532,
     "POS": "SF",
     "TEAM": "IND",
     "G": 81,
@@ -191,7 +191,7 @@
   },
   {
     "Player": "Isaiah Thomas",
-    "SALARY": "$6,587,132",
+    "SALARY": 6587132,
     "POS": "PG",
     "TEAM": "BOS",
     "G": 82,
@@ -210,7 +210,7 @@
   },
   {
     "Player": "Klay Thompson",
-    "SALARY": "$16,663,575",
+    "SALARY": 16663575,
     "POS": "SG",
     "TEAM": "GSW",
     "G": 80,
@@ -229,7 +229,7 @@
   },
   {
     "Player": "Carmelo Anthony",
-    "SALARY": "$24,559,380",
+    "SALARY": 24559380,
     "POS": "SF",
     "TEAM": "NYK",
     "G": 72,
@@ -248,7 +248,7 @@
   },
   {
     "Player": "Blake Griffin",
-    "SALARY": "$20,140,838",
+    "SALARY": 20140838,
     "POS": "PF",
     "TEAM": "LAC",
     "G": 35,
@@ -267,7 +267,7 @@
   },
   {
     "Player": "Kyle Lowry",
-    "SALARY": "$12,000,000",
+    "SALARY": 12000000,
     "POS": "PG",
     "TEAM": "TOR",
     "G": 77,
@@ -286,7 +286,7 @@
   },
   {
     "Player": "Kawhi Leonard",
-    "SALARY": "$17,638,063",
+    "SALARY": 17638063,
     "POS": "SF",
     "TEAM": "SAS",
     "G": 72,
@@ -305,7 +305,7 @@
   },
   {
     "Player": "Kemba Walker",
-    "SALARY": "$12,000,000",
+    "SALARY": 12000000,
     "POS": "PG",
     "TEAM": "CHO",
     "G": 81,
@@ -324,7 +324,7 @@
   },
   {
     "Player": "Jimmy Butler",
-    "SALARY": "$17,552,209",
+    "SALARY": 17552209,
     "POS": "SG",
     "TEAM": "CHI",
     "G": 67,
@@ -343,7 +343,7 @@
   },
   {
     "Player": "C.J. McCollum",
-    "SALARY": "$3,219,579",
+    "SALARY": 3219579,
     "POS": "SG",
     "TEAM": "POR",
     "G": 80,
@@ -362,7 +362,7 @@
   },
   {
     "Player": "Andrew Wiggins",
-    "SALARY": "$6,006,600",
+    "SALARY": 6006600,
     "POS": "SF",
     "TEAM": "MIN",
     "G": 81,
@@ -381,7 +381,7 @@
   },
   {
     "Player": "Brook Lopez",
-    "SALARY": "$21,165,675",
+    "SALARY": 21165675,
     "POS": "C",
     "TEAM": "BRK",
     "G": 73,
@@ -400,7 +400,7 @@
   },
   {
     "Player": "Eric Bledsoe",
-    "SALARY": "$14,000,000",
+    "SALARY": 14000000,
     "POS": "PG",
     "TEAM": "PHO",
     "G": 31,
@@ -419,7 +419,7 @@
   },
   {
     "Player": "John Wall",
-    "SALARY": "$16,957,900",
+    "SALARY": 16957900,
     "POS": "PG",
     "TEAM": "WAS",
     "G": 77,
@@ -438,7 +438,7 @@
   },
   {
     "Player": "Gordon Hayward",
-    "SALARY": "$16,073,140",
+    "SALARY": 16073140,
     "POS": "SF",
     "TEAM": "UTA",
     "G": 80,
@@ -457,7 +457,7 @@
   },
   {
     "Player": "Brandon Knight",
-    "SALARY": "$12,606,250",
+    "SALARY": 12606250,
     "POS": "SG",
     "TEAM": "PHO",
     "G": 52,
@@ -476,7 +476,7 @@
   },
   {
     "Player": "Kyrie Irving",
-    "SALARY": "$17,638,063",
+    "SALARY": 17638063,
     "POS": "PG",
     "TEAM": "CLE",
     "G": 53,
@@ -495,7 +495,7 @@
   },
   {
     "Player": "Danilo Gallinari",
-    "SALARY": "$15,050,000",
+    "SALARY": 15050000,
     "POS": "SF",
     "TEAM": "DEN",
     "G": 53,
@@ -514,7 +514,7 @@
   },
   {
     "Player": "Chris Paul",
-    "SALARY": "$22,868,828",
+    "SALARY": 22868828,
     "POS": "PG",
     "TEAM": "LAC",
     "G": 74,
@@ -533,7 +533,7 @@
   },
   {
     "Player": "Chris Bosh",
-    "SALARY": "$23,741,060",
+    "SALARY": 23741060,
     "POS": "PF",
     "TEAM": "MIA",
     "G": 53,
@@ -552,7 +552,7 @@
   },
   {
     "Player": "Dwyane Wade",
-    "SALARY": "$23,200,000",
+    "SALARY": 23200000,
     "POS": "SG",
     "TEAM": "CHI",
     "G": 74,
@@ -571,7 +571,7 @@
   },
   {
     "Player": "Reggie Jackson",
-    "SALARY": "$14,956,522",
+    "SALARY": 14956522,
     "POS": "PG",
     "TEAM": "DET",
     "G": 79,
@@ -590,7 +590,7 @@
   },
   {
     "Player": "Karl-Anthony Towns",
-    "SALARY": "$5,960,160",
+    "SALARY": 5960160,
     "POS": "C",
     "TEAM": "MIN",
     "G": 82,
@@ -609,7 +609,7 @@
   },
   {
     "Player": "Dirk Nowitzki",
-    "SALARY": "$25,000,000",
+    "SALARY": 25000000,
     "POS": "PF",
     "TEAM": "DAL",
     "G": 75,
@@ -628,7 +628,7 @@
   },
   {
     "Player": "Nikola Vucevic",
-    "SALARY": "$11,750,000",
+    "SALARY": 11750000,
     "POS": "C",
     "TEAM": "ORL",
     "G": 65,
@@ -647,7 +647,7 @@
   },
   {
     "Player": "Khris Middleton",
-    "SALARY": "$15,200,000",
+    "SALARY": 15200000,
     "POS": "SG",
     "TEAM": "MIL",
     "G": 79,
@@ -666,7 +666,7 @@
   },
   {
     "Player": "LaMarcus Aldridge",
-    "SALARY": "$20,575,005",
+    "SALARY": 20575005,
     "POS": "PF",
     "TEAM": "SAS",
     "G": 74,
@@ -704,7 +704,7 @@
   },
   {
     "Player": "Jahlil Okafor",
-    "SALARY": "$4,788,840",
+    "SALARY": 4788840,
     "POS": "C",
     "TEAM": "PHI",
     "G": 53,
@@ -723,7 +723,7 @@
   },
   {
     "Player": "Bradley Beal",
-    "SALARY": "$22,116,750",
+    "SALARY": 22116750,
     "POS": "SG",
     "TEAM": "WAS",
     "G": 55,
@@ -742,7 +742,7 @@
   },
   {
     "Player": "Rudy Gay",
-    "SALARY": "$13,333,333",
+    "SALARY": 13333333,
     "POS": "SF",
     "TEAM": "SAC",
     "G": 70,
@@ -761,7 +761,7 @@
   },
   {
     "Player": "Paul Millsap",
-    "SALARY": "$20,072,033",
+    "SALARY": 20072033,
     "POS": "PF",
     "TEAM": "ATL",
     "G": 81,
@@ -780,7 +780,7 @@
   },
   {
     "Player": "Ryan Anderson",
-    "SALARY": "$18,735,364",
+    "SALARY": 18735364,
     "POS": "PF",
     "TEAM": "HOU",
     "G": 66,
@@ -799,7 +799,7 @@
   },
   {
     "Player": "Giannis Antetokounmpo",
-    "SALARY": "$2,995,421",
+    "SALARY": 2995421,
     "POS": "PG",
     "TEAM": "MIL",
     "G": 80,
@@ -818,7 +818,7 @@
   },
   {
     "Player": "Jrue Holiday",
-    "SALARY": "$11,286,518",
+    "SALARY": 11286518,
     "POS": "PG",
     "TEAM": "NOP",
     "G": 65,
@@ -837,7 +837,7 @@
   },
   {
     "Player": "Marc Gasol",
-    "SALARY": "$21,165,675",
+    "SALARY": 21165675,
     "POS": "C",
     "TEAM": "MEM",
     "G": 52,
@@ -856,7 +856,7 @@
   },
   {
     "Player": "Pau Gasol",
-    "SALARY": "$15,500,000",
+    "SALARY": 15500000,
     "POS": "C",
     "TEAM": "GSW",
     "G": 72,
@@ -875,7 +875,7 @@
   },
   {
     "Player": "Derrick Favors",
-    "SALARY": "$11,050,000",
+    "SALARY": 11050000,
     "POS": "PF",
     "TEAM": "UTA",
     "G": 62,
@@ -894,7 +894,7 @@
   },
   {
     "Player": "Derrick Rose",
-    "SALARY": "$21,323,250",
+    "SALARY": 21323250,
     "POS": "PG",
     "TEAM": "NYK",
     "G": 66,
@@ -913,7 +913,7 @@
   },
   {
     "Player": "J.J. Redick",
-    "SALARY": "$7,377,500",
+    "SALARY": 7377500,
     "POS": "SG",
     "TEAM": "LAC",
     "G": 75,
@@ -932,7 +932,7 @@
   },
   {
     "Player": "Andre Drummond",
-    "SALARY": "$22,116,750",
+    "SALARY": 22116750,
     "POS": "C",
     "TEAM": "DET",
     "G": 81,
@@ -951,7 +951,7 @@
   },
   {
     "Player": "Victor Oladipo",
-    "SALARY": "$6,552,960",
+    "SALARY": 6552960,
     "POS": "SG",
     "TEAM": "OKC",
     "G": 72,
@@ -970,7 +970,7 @@
   },
   {
     "Player": "Kevin Love",
-    "SALARY": "$21,165,675",
+    "SALARY": 21165675,
     "POS": "PF",
     "TEAM": "CLE",
     "G": 77,
@@ -989,7 +989,7 @@
   },
   {
     "Player": "Jeff Teague",
-    "SALARY": "$8,800,000",
+    "SALARY": 8800000,
     "POS": "PG",
     "TEAM": "IND",
     "G": 79,
@@ -1008,7 +1008,7 @@
   },
   {
     "Player": "Jordan Clarkson",
-    "SALARY": "$12,500,000",
+    "SALARY": 12500000,
     "POS": "SG",
     "TEAM": "LAL",
     "G": 79,
@@ -1027,7 +1027,7 @@
   },
   {
     "Player": "Evan Fournier",
-    "SALARY": "$17,000,000",
+    "SALARY": 17000000,
     "POS": "SF",
     "TEAM": "ORL",
     "G": 79,
@@ -1046,7 +1046,7 @@
   },
   {
     "Player": "Lou Williams",
-    "SALARY": "$7,000,000",
+    "SALARY": 7000000,
     "POS": "SG",
     "TEAM": "LAL",
     "G": 67,
@@ -1065,7 +1065,7 @@
   },
   {
     "Player": "Zach Randolph",
-    "SALARY": "$10,361,445",
+    "SALARY": 10361445,
     "POS": "PF",
     "TEAM": "MEM",
     "G": 68,
@@ -1084,7 +1084,7 @@
   },
   {
     "Player": "Greg Monroe",
-    "SALARY": "$17,100,000",
+    "SALARY": 17100000,
     "POS": "C",
     "TEAM": "MIL",
     "G": 79,
@@ -1103,7 +1103,7 @@
   },
   {
     "Player": "Mike Conley",
-    "SALARY": "$26,540,100",
+    "SALARY": 26540100,
     "POS": "PG",
     "TEAM": "MEM",
     "G": 56,
@@ -1122,7 +1122,7 @@
   },
   {
     "Player": "Avery Bradley",
-    "SALARY": "$8,269,663",
+    "SALARY": 8269663,
     "POS": "SG",
     "TEAM": "BOS",
     "G": 76,
@@ -1141,7 +1141,7 @@
   },
   {
     "Player": "Tyreke Evans",
-    "SALARY": "$10,203,755",
+    "SALARY": 10203755,
     "POS": "SG",
     "TEAM": "NOP",
     "G": 25,
@@ -1160,7 +1160,7 @@
   },
   {
     "Player": "Eric Gordon",
-    "SALARY": "$12,385,364",
+    "SALARY": 12385364,
     "POS": "SG",
     "TEAM": "HOU",
     "G": 45,
@@ -1179,7 +1179,7 @@
   },
   {
     "Player": "Al Horford",
-    "SALARY": "$26,540,100",
+    "SALARY": 26540100,
     "POS": "C",
     "TEAM": "ATL",
     "G": 82,
@@ -1198,7 +1198,7 @@
   },
   {
     "Player": "Thaddeus Young",
-    "SALARY": "$14,153,652",
+    "SALARY": 14153652,
     "POS": "PF",
     "TEAM": "IND",
     "G": 73,
@@ -1217,7 +1217,7 @@
   },
   {
     "Player": "Nicolas Batum",
-    "SALARY": "$20,869,566",
+    "SALARY": 20869566,
     "POS": "SF",
     "TEAM": "CHO",
     "G": 70,
@@ -1236,7 +1236,7 @@
   },
   {
     "Player": "Tobias Harris",
-    "SALARY": "$17,200,000",
+    "SALARY": 17200000,
     "POS": "PF",
     "TEAM": "DET",
     "G": 76,
@@ -1255,7 +1255,7 @@
   },
   {
     "Player": "Rodney Hood",
-    "SALARY": "$1,406,520",
+    "SALARY": 1406520,
     "POS": "SG",
     "TEAM": "UTA",
     "G": 79,
@@ -1274,7 +1274,7 @@
   },
   {
     "Player": "Kentavious Caldwell-Pope",
-    "SALARY": "$3,678,319",
+    "SALARY": 3678319,
     "POS": "SG",
     "TEAM": "DET",
     "G": 76,
@@ -1293,7 +1293,7 @@
   },
   {
     "Player": "Will Barton",
-    "SALARY": "$3,533,333",
+    "SALARY": 3533333,
     "POS": "SG",
     "TEAM": "DEN",
     "G": 82,
@@ -1312,7 +1312,7 @@
   },
   {
     "Player": "Kristaps Porzingis",
-    "SALARY": "$4,317,720",
+    "SALARY": 4317720,
     "POS": "PF",
     "TEAM": "NYK",
     "G": 72,
@@ -1331,7 +1331,7 @@
   },
   {
     "Player": "Jae Crowder",
-    "SALARY": "$6,286,408",
+    "SALARY": 6286408,
     "POS": "SF",
     "TEAM": "BOS",
     "G": 73,
@@ -1350,7 +1350,7 @@
   },
   {
     "Player": "Jamal Crawford",
-    "SALARY": "$13,253,012",
+    "SALARY": 13253012,
     "POS": "SG",
     "TEAM": "LAC",
     "G": 79,
@@ -1369,7 +1369,7 @@
   },
   {
     "Player": "Hassan Whiteside",
-    "SALARY": "$22,116,750",
+    "SALARY": 22116750,
     "POS": "C",
     "TEAM": "MIA",
     "G": 73,
@@ -1388,7 +1388,7 @@
   },
   {
     "Player": "Marcus Morris",
-    "SALARY": "$4,625,000",
+    "SALARY": 4625000,
     "POS": "SF",
     "TEAM": "DET",
     "G": 80,
@@ -1407,7 +1407,7 @@
   },
   {
     "Player": "Jabari Parker",
-    "SALARY": "$5,374,320",
+    "SALARY": 5374320,
     "POS": "PF",
     "TEAM": "MIL",
     "G": 76,
@@ -1426,7 +1426,7 @@
   },
   {
     "Player": "Deron Williams",
-    "SALARY": "$9,000,000",
+    "SALARY": 9000000,
     "POS": "PG",
     "TEAM": "DAL",
     "G": 65,
@@ -1445,7 +1445,7 @@
   },
   {
     "Player": "Goran Dragic",
-    "SALARY": "$15,890,000",
+    "SALARY": 15890000,
     "POS": "PG",
     "TEAM": "MIA",
     "G": 72,
@@ -1464,7 +1464,7 @@
   },
   {
     "Player": "Zach LaVine",
-    "SALARY": "$2,240,880",
+    "SALARY": 2240880,
     "POS": "SG",
     "TEAM": "MIN",
     "G": 82,
@@ -1483,7 +1483,7 @@
   },
   {
     "Player": "Darren Collison",
-    "SALARY": "$5,229,454",
+    "SALARY": 5229454,
     "POS": "PG",
     "TEAM": "SAC",
     "G": 74,
@@ -1502,7 +1502,7 @@
   },
   {
     "Player": "Draymond Green",
-    "SALARY": "$15,330,435",
+    "SALARY": 15330435,
     "POS": "PF",
     "TEAM": "GSW",
     "G": 81,
@@ -1521,7 +1521,7 @@
   },
   {
     "Player": "Devin Booker",
-    "SALARY": "$2,223,600",
+    "SALARY": 2223600,
     "POS": "SG",
     "TEAM": "PHO",
     "G": 76,
@@ -1540,7 +1540,7 @@
   },
   {
     "Player": "Monta Ellis",
-    "SALARY": "$10,770,000",
+    "SALARY": 10770000,
     "POS": "SG",
     "TEAM": "IND",
     "G": 81,
@@ -1559,7 +1559,7 @@
   },
   {
     "Player": "Chandler Parsons",
-    "SALARY": "$22,116,750",
+    "SALARY": 22116750,
     "POS": "SF",
     "TEAM": "MEM",
     "G": 61,
@@ -1578,7 +1578,7 @@
   },
   {
     "Player": "Dwight Howard",
-    "SALARY": "$23,180,275",
+    "SALARY": 23180275,
     "POS": "C",
     "TEAM": "ATL",
     "G": 71,
@@ -1597,7 +1597,7 @@
   },
   {
     "Player": "Marcin Gortat",
-    "SALARY": "$12,000,000",
+    "SALARY": 12000000,
     "POS": "C",
     "TEAM": "WAS",
     "G": 75,
@@ -1616,7 +1616,7 @@
   },
   {
     "Player": "Alec Burks",
-    "SALARY": "$10,154,495",
+    "SALARY": 10154495,
     "POS": "SG",
     "TEAM": "UTA",
     "G": 31,
@@ -1635,7 +1635,7 @@
   },
   {
     "Player": "D'Angelo Russell",
-    "SALARY": "$5,332,800",
+    "SALARY": 5332800,
     "POS": "PG",
     "TEAM": "LAL",
     "G": 80,
@@ -1673,7 +1673,7 @@
   },
   {
     "Player": "Robert Covington",
-    "SALARY": "$1,015,696",
+    "SALARY": 1015696,
     "POS": "SF",
     "TEAM": "PHI",
     "G": 67,
@@ -1692,7 +1692,7 @@
   },
   {
     "Player": "Michael Beasley",
-    "SALARY": "$1,403,611",
+    "SALARY": 1403611,
     "POS": "SF",
     "TEAM": "HOU",
     "G": 20,
@@ -1711,7 +1711,7 @@
   },
   {
     "Player": "Jarrett Jack",
-    "SALARY": "$1,551,659",
+    "SALARY": 1551659,
     "POS": "PG",
     "TEAM": "ATL",
     "G": 32,
@@ -1730,7 +1730,7 @@
   },
   {
     "Player": "Emmanuel Mudiay",
-    "SALARY": "$3,241,800",
+    "SALARY": 3241800,
     "POS": "PG",
     "TEAM": "DEN",
     "G": 68,
@@ -1749,7 +1749,7 @@
   },
   {
     "Player": "Arron Afflalo",
-    "SALARY": "$12,500,000",
+    "SALARY": 12500000,
     "POS": "SG",
     "TEAM": "SAC",
     "G": 71,
@@ -1768,7 +1768,7 @@
   },
   {
     "Player": "Jonas Valanciunas",
-    "SALARY": "$14,382,022",
+    "SALARY": 14382022,
     "POS": "C",
     "TEAM": "TOR",
     "G": 60,
@@ -1787,7 +1787,7 @@
   },
   {
     "Player": "Trevor Ariza",
-    "SALARY": "$7,806,971",
+    "SALARY": 7806971,
     "POS": "SF",
     "TEAM": "HOU",
     "G": 81,
@@ -1806,7 +1806,7 @@
   },
   {
     "Player": "Michael Kidd-Gilchrist",
-    "SALARY": "$13,000,000",
+    "SALARY": 13000000,
     "POS": "SF",
     "TEAM": "CHO",
     "G": 7,
@@ -1825,7 +1825,7 @@
   },
   {
     "Player": "Enes Kanter",
-    "SALARY": "$17,145,838",
+    "SALARY": 17145838,
     "POS": "C",
     "TEAM": "OKC",
     "G": 82,
@@ -1844,7 +1844,7 @@
   },
   {
     "Player": "DeAndre Jordan",
-    "SALARY": "$21,165,675",
+    "SALARY": 21165675,
     "POS": "C",
     "TEAM": "LAC",
     "G": 77,
@@ -1863,7 +1863,7 @@
   },
   {
     "Player": "Ish Smith",
-    "SALARY": "$6,000,000",
+    "SALARY": 6000000,
     "POS": "PG",
     "TEAM": "DET",
     "G": 77,
@@ -1882,7 +1882,7 @@
   },
   {
     "Player": "Serge Ibaka",
-    "SALARY": "$12,250,000",
+    "SALARY": 12250000,
     "POS": "PF",
     "TEAM": "ORL",
     "G": 78,
@@ -1901,7 +1901,7 @@
   },
   {
     "Player": "Kenneth Faried",
-    "SALARY": "$12,078,652",
+    "SALARY": 12078652,
     "POS": "PF",
     "TEAM": "DEN",
     "G": 67,
@@ -1920,7 +1920,7 @@
   },
   {
     "Player": "Wesley Matthews",
-    "SALARY": "$17,100,000",
+    "SALARY": 17100000,
     "POS": "SG",
     "TEAM": "DAL",
     "G": 78,
@@ -1958,7 +1958,7 @@
   },
   {
     "Player": "Gary Harris",
-    "SALARY": "$1,655,880",
+    "SALARY": 1655880,
     "POS": "SG",
     "TEAM": "DEN",
     "G": 76,
@@ -1977,7 +1977,7 @@
   },
   {
     "Player": "Luol Deng",
-    "SALARY": "$18,000,000",
+    "SALARY": 18000000,
     "POS": "PF",
     "TEAM": "LAL",
     "G": 74,
@@ -1996,7 +1996,7 @@
   },
   {
     "Player": "Mirza Teletovic",
-    "SALARY": "$10,500,000",
+    "SALARY": 10500000,
     "POS": "PF",
     "TEAM": "PHO",
     "G": 79,
@@ -2015,7 +2015,7 @@
   },
   {
     "Player": "Joe Johnson",
-    "SALARY": "$11,000,000",
+    "SALARY": 11000000,
     "POS": "SF",
     "TEAM": "UTA",
     "G": 81,
@@ -2034,7 +2034,7 @@
   },
   {
     "Player": "George Hill",
-    "SALARY": "$8,000,000",
+    "SALARY": 8000000,
     "POS": "PG",
     "TEAM": "UTA",
     "G": 74,
@@ -2053,7 +2053,7 @@
   },
   {
     "Player": "Markieff Morris",
-    "SALARY": "$7,400,000",
+    "SALARY": 7400000,
     "POS": "PF",
     "TEAM": "WAS",
     "G": 64,
@@ -2072,7 +2072,7 @@
   },
   {
     "Player": "Al Jefferson",
-    "SALARY": "$10,230,179",
+    "SALARY": 10230179,
     "POS": "C",
     "TEAM": "CHO",
     "G": 47,
@@ -2091,7 +2091,7 @@
   },
   {
     "Player": "Rajon Rondo",
-    "SALARY": "$14,000,000",
+    "SALARY": 14000000,
     "POS": "PG",
     "TEAM": "CHI",
     "G": 72,
@@ -2110,7 +2110,7 @@
   },
   {
     "Player": "Tony Parker",
-    "SALARY": "$14,445,313",
+    "SALARY": 14445313,
     "POS": "PG",
     "TEAM": "SAS",
     "G": 72,
@@ -2129,7 +2129,7 @@
   },
   {
     "Player": "Omri Casspi",
-    "SALARY": "$3,000,000",
+    "SALARY": 3000000,
     "POS": "SF",
     "TEAM": "SAC",
     "G": 69,
@@ -2148,7 +2148,7 @@
   },
   {
     "Player": "C.J. Miles",
-    "SALARY": "$4,583,450",
+    "SALARY": 4583450,
     "POS": "SF",
     "TEAM": "IND",
     "G": 64,
@@ -2167,7 +2167,7 @@
   },
   {
     "Player": "Nikola Mirotic",
-    "SALARY": "$5,782,450",
+    "SALARY": 5782450,
     "POS": "PF",
     "TEAM": "CHI",
     "G": 66,
@@ -2186,7 +2186,7 @@
   },
   {
     "Player": "Jeremy Lin",
-    "SALARY": "$11,483,254",
+    "SALARY": 11483254,
     "POS": "SG",
     "TEAM": "BRK",
     "G": 78,
@@ -2205,7 +2205,7 @@
   },
   {
     "Player": "Marvin Williams",
-    "SALARY": "$12,250,000",
+    "SALARY": 12250000,
     "POS": "PF",
     "TEAM": "CHO",
     "G": 81,
@@ -2224,7 +2224,7 @@
   },
   {
     "Player": "Jeff Green",
-    "SALARY": "$15,000,000",
+    "SALARY": 15000000,
     "POS": "SF",
     "TEAM": "ORL",
     "G": 80,
@@ -2243,7 +2243,7 @@
   },
   {
     "Player": "Harrison Barnes",
-    "SALARY": "$22,116,750",
+    "SALARY": 22116750,
     "POS": "SF",
     "TEAM": "DAL",
     "G": 66,
@@ -2262,7 +2262,7 @@
   },
   {
     "Player": "Otto Porter",
-    "SALARY": "$5,893,981",
+    "SALARY": 5893981,
     "POS": "SF",
     "TEAM": "WAS",
     "G": 75,
@@ -2281,7 +2281,7 @@
   },
   {
     "Player": "Kent Bazemore",
-    "SALARY": "$15,730,338",
+    "SALARY": 15730338,
     "POS": "SF",
     "TEAM": "ATL",
     "G": 75,
@@ -2300,7 +2300,7 @@
   },
   {
     "Player": "Michael Carter-Williams",
-    "SALARY": "$3,183,526",
+    "SALARY": 3183526,
     "POS": "PG",
     "TEAM": "MIL",
     "G": 54,
@@ -2338,7 +2338,7 @@
   },
   {
     "Player": "Julius Randle",
-    "SALARY": "$3,267,120",
+    "SALARY": 3267120,
     "POS": "PF",
     "TEAM": "LAL",
     "G": 81,
@@ -2357,7 +2357,7 @@
   },
   {
     "Player": "Bojan Bogdanovic",
-    "SALARY": "$3,573,020",
+    "SALARY": 3573020,
     "POS": "SF",
     "TEAM": "BRK",
     "G": 79,
@@ -2376,7 +2376,7 @@
   },
   {
     "Player": "Sean Kilpatrick",
-    "SALARY": "$980,431",
+    "SALARY": 980431,
     "POS": "SG",
     "TEAM": "BRK",
     "G": 31,
@@ -2395,7 +2395,7 @@
   },
   {
     "Player": "Nerlens Noel",
-    "SALARY": "$4,384,490",
+    "SALARY": 4384490,
     "POS": "C",
     "TEAM": "PHI",
     "G": 67,
@@ -2414,7 +2414,7 @@
   },
   {
     "Player": "Isaiah Canaan",
-    "SALARY": "$1,015,696",
+    "SALARY": 1015696,
     "POS": "SG",
     "TEAM": "CHI",
     "G": 77,
@@ -2433,7 +2433,7 @@
   },
   {
     "Player": "T.J. Warren",
-    "SALARY": "$2,128,920",
+    "SALARY": 2128920,
     "POS": "SF",
     "TEAM": "PHO",
     "G": 47,
@@ -2452,7 +2452,7 @@
   },
   {
     "Player": "Dennis Schroder",
-    "SALARY": "$2,708,582",
+    "SALARY": 2708582,
     "POS": "PG",
     "TEAM": "ATL",
     "G": 80,
@@ -2471,7 +2471,7 @@
   },
   {
     "Player": "DeMarre Carroll",
-    "SALARY": "$14,200,000",
+    "SALARY": 14200000,
     "POS": "SF",
     "TEAM": "TOR",
     "G": 26,
@@ -2490,7 +2490,7 @@
   },
   {
     "Player": "J.J. Barea",
-    "SALARY": "$4,096,950",
+    "SALARY": 4096950,
     "POS": "PG",
     "TEAM": "DAL",
     "G": 74,
@@ -2509,7 +2509,7 @@
   },
   {
     "Player": "Elfrid Payton",
-    "SALARY": "$2,613,600",
+    "SALARY": 2613600,
     "POS": "PG",
     "TEAM": "ORL",
     "G": 73,
@@ -2528,7 +2528,7 @@
   },
   {
     "Player": "Trey Burke",
-    "SALARY": "$3,386,598",
+    "SALARY": 3386598,
     "POS": "PG",
     "TEAM": "WAS",
     "G": 64,
@@ -2566,7 +2566,7 @@
   },
   {
     "Player": "Shabazz Muhammad",
-    "SALARY": "$3,046,299",
+    "SALARY": 3046299,
     "POS": "SF",
     "TEAM": "MIN",
     "G": 82,
@@ -2585,7 +2585,7 @@
   },
   {
     "Player": "Evan Turner",
-    "SALARY": "$16,393,443",
+    "SALARY": 16393443,
     "POS": "SG",
     "TEAM": "POR",
     "G": 81,
@@ -2604,7 +2604,7 @@
   },
   {
     "Player": "Ersan Ilyasova",
-    "SALARY": "$8,400,000",
+    "SALARY": 8400000,
     "POS": "PF",
     "TEAM": "OKC",
     "G": 74,
@@ -2623,7 +2623,7 @@
   },
   {
     "Player": "Jerryd Bayless",
-    "SALARY": "$9,424,084",
+    "SALARY": 9424084,
     "POS": "SG",
     "TEAM": "PHI",
     "G": 52,
@@ -2642,7 +2642,7 @@
   },
   {
     "Player": "Myles Turner",
-    "SALARY": "$2,463,840",
+    "SALARY": 2463840,
     "POS": "C",
     "TEAM": "IND",
     "G": 60,
@@ -2661,7 +2661,7 @@
   },
   {
     "Player": "Jared Sullinger",
-    "SALARY": "$5,628,000",
+    "SALARY": 5628000,
     "POS": "PF",
     "TEAM": "TOR",
     "G": 81,
@@ -2680,7 +2680,7 @@
   },
   {
     "Player": "Robin Lopez",
-    "SALARY": "$13,219,250",
+    "SALARY": 13219250,
     "POS": "C",
     "TEAM": "CHI",
     "G": 82,
@@ -2699,7 +2699,7 @@
   },
   {
     "Player": "Allen Crabbe",
-    "SALARY": "$18,500,000",
+    "SALARY": 18500000,
     "POS": "SG",
     "TEAM": "POR",
     "G": 81,
@@ -2737,7 +2737,7 @@
   },
   {
     "Player": "Marco Belinelli",
-    "SALARY": "$6,333,333",
+    "SALARY": 6333333,
     "POS": "SG",
     "TEAM": "CHO",
     "G": 68,
@@ -2756,7 +2756,7 @@
   },
   {
     "Player": "Al-Farouq Aminu",
-    "SALARY": "$7,680,965",
+    "SALARY": 7680965,
     "POS": "SF",
     "TEAM": "POR",
     "G": 82,
@@ -2775,7 +2775,7 @@
   },
   {
     "Player": "Gorgui Dieng",
-    "SALARY": "$2,348,783",
+    "SALARY": 2348783,
     "POS": "C",
     "TEAM": "MIN",
     "G": 82,
@@ -2794,7 +2794,7 @@
   },
   {
     "Player": "Ricky Rubio",
-    "SALARY": "$13,550,000",
+    "SALARY": 13550000,
     "POS": "PG",
     "TEAM": "MIN",
     "G": 76,
@@ -2813,7 +2813,7 @@
   },
   {
     "Player": "Nikola Jokic",
-    "SALARY": "$1,358,500",
+    "SALARY": 1358500,
     "POS": "C",
     "TEAM": "DEN",
     "G": 80,
@@ -2832,7 +2832,7 @@
   },
   {
     "Player": "Kelly Olynyk",
-    "SALARY": "$3,094,014",
+    "SALARY": 3094014,
     "POS": "C",
     "TEAM": "BOS",
     "G": 69,
@@ -2851,7 +2851,7 @@
   },
   {
     "Player": "Matt Barnes",
-    "SALARY": "$6,125,000",
+    "SALARY": 6125000,
     "POS": "SF",
     "TEAM": "SAC",
     "G": 76,
@@ -2870,7 +2870,7 @@
   },
   {
     "Player": "Ramon Sessions",
-    "SALARY": "$6,000,000",
+    "SALARY": 6000000,
     "POS": "PG",
     "TEAM": "CHO",
     "G": 82,
@@ -2889,7 +2889,7 @@
   },
   {
     "Player": "Patrick Beverley",
-    "SALARY": "$6,000,000",
+    "SALARY": 6000000,
     "POS": "PG",
     "TEAM": "HOU",
     "G": 71,
@@ -2908,7 +2908,7 @@
   },
   {
     "Player": "Terrence Ross",
-    "SALARY": "$10,000,000",
+    "SALARY": 10000000,
     "POS": "SF",
     "TEAM": "TOR",
     "G": 73,
@@ -2927,7 +2927,7 @@
   },
   {
     "Player": "Hollis Thompson",
-    "SALARY": "$1,015,696",
+    "SALARY": 1015696,
     "POS": "SG",
     "TEAM": "PHI",
     "G": 77,
@@ -2946,7 +2946,7 @@
   },
   {
     "Player": "Dion Waiters",
-    "SALARY": "$2,898,000",
+    "SALARY": 2898000,
     "POS": "SG",
     "TEAM": "MIA",
     "G": 78,
@@ -2965,7 +2965,7 @@
   },
   {
     "Player": "Carl Landry",
-    "SALARY": "$6,500,000",
+    "SALARY": 6500000,
     "POS": "PF",
     "TEAM": "PHI",
     "G": 36,
@@ -3003,7 +3003,7 @@
   },
   {
     "Player": "Jerami Grant",
-    "SALARY": "$980,431",
+    "SALARY": 980431,
     "POS": "SF",
     "TEAM": "PHI",
     "G": 77,
@@ -3022,7 +3022,7 @@
   },
   {
     "Player": "Marcus Thornton",
-    "SALARY": "$1,315,448",
+    "SALARY": 1315448,
     "POS": "SG",
     "TEAM": "WAS",
     "G": 61,
@@ -3041,7 +3041,7 @@
   },
   {
     "Player": "Courtney Lee",
-    "SALARY": "$11,242,000",
+    "SALARY": 11242000,
     "POS": "SG",
     "TEAM": "NYK",
     "G": 79,
@@ -3060,7 +3060,7 @@
   },
   {
     "Player": "Manu Ginobili",
-    "SALARY": "$14,000,000",
+    "SALARY": 14000000,
     "POS": "SG",
     "TEAM": "SAS",
     "G": 58,
@@ -3079,7 +3079,7 @@
   },
   {
     "Player": "Raymond Felton",
-    "SALARY": "$1,551,659",
+    "SALARY": 1551659,
     "POS": "PG",
     "TEAM": "LAC",
     "G": 80,
@@ -3098,7 +3098,7 @@
   },
   {
     "Player": "Doug McDermott",
-    "SALARY": "$2,483,040",
+    "SALARY": 2483040,
     "POS": "SF",
     "TEAM": "CHI",
     "G": 81,
@@ -3117,7 +3117,7 @@
   },
   {
     "Player": "Kevin Martin",
-    "SALARY": "$1,360,305",
+    "SALARY": 1360305,
     "POS": "SG",
     "TEAM": "MIN",
     "G": 55,
@@ -3136,7 +3136,7 @@
   },
   {
     "Player": "Derrick Williams",
-    "SALARY": "$4,598,000",
+    "SALARY": 4598000,
     "POS": "SF",
     "TEAM": "MIA",
     "G": 80,
@@ -3155,7 +3155,7 @@
   },
   {
     "Player": "Ian Mahinmi",
-    "SALARY": "$15,944,154",
+    "SALARY": 15944154,
     "POS": "C",
     "TEAM": "WAS",
     "G": 71,
@@ -3174,7 +3174,7 @@
   },
   {
     "Player": "Jordan Farmar",
-    "SALARY": "$1,410,598",
+    "SALARY": 1410598,
     "POS": "PG",
     "TEAM": "SAC",
     "G": 12,
@@ -3193,7 +3193,7 @@
   },
   {
     "Player": "Nene Hilario",
-    "SALARY": "$2,898,000",
+    "SALARY": 2898000,
     "POS": "PF",
     "TEAM": "HOU",
     "G": 57,
@@ -3212,7 +3212,7 @@
   },
   {
     "Player": "Aaron Gordon",
-    "SALARY": "$4,351,320",
+    "SALARY": 4351320,
     "POS": "PF",
     "TEAM": "ORL",
     "G": 78,
@@ -3231,7 +3231,7 @@
   },
   {
     "Player": "Kyle Korver",
-    "SALARY": "$5,239,437",
+    "SALARY": 5239437,
     "POS": "SG",
     "TEAM": "ATL",
     "G": 80,
@@ -3250,7 +3250,7 @@
   },
   {
     "Player": "Rudy Gobert",
-    "SALARY": "$2,121,288",
+    "SALARY": 2121288,
     "POS": "C",
     "TEAM": "UTA",
     "G": 61,
@@ -3269,7 +3269,7 @@
   },
   {
     "Player": "Mason Plumlee",
-    "SALARY": "$2,328,530",
+    "SALARY": 2328530,
     "POS": "C",
     "TEAM": "POR",
     "G": 82,
@@ -3288,7 +3288,7 @@
   },
   {
     "Player": "Marcus Smart",
-    "SALARY": "$3,578,880",
+    "SALARY": 3578880,
     "POS": "PG",
     "TEAM": "BOS",
     "G": 61,
@@ -3307,7 +3307,7 @@
   },
   {
     "Player": "Alex Len",
-    "SALARY": "$4,823,621",
+    "SALARY": 4823621,
     "POS": "C",
     "TEAM": "PHO",
     "G": 78,
@@ -3326,7 +3326,7 @@
   },
   {
     "Player": "Gerald Green",
-    "SALARY": "$1,410,598",
+    "SALARY": 1410598,
     "POS": "SG",
     "TEAM": "BOS",
     "G": 69,
@@ -3345,7 +3345,7 @@
   },
   {
     "Player": "Archie Goodwin",
-    "SALARY": "$2,094,089",
+    "SALARY": 2094089,
     "POS": "PG",
     "TEAM": "PHO",
     "G": 57,
@@ -3364,7 +3364,7 @@
   },
   {
     "Player": "Rodney Stuckey",
-    "SALARY": "$7,000,000",
+    "SALARY": 7000000,
     "POS": "PG",
     "TEAM": "IND",
     "G": 58,
@@ -3383,7 +3383,7 @@
   },
   {
     "Player": "Austin Rivers",
-    "SALARY": "$11,000,000",
+    "SALARY": 11000000,
     "POS": "SG",
     "TEAM": "LAC",
     "G": 67,
@@ -3402,7 +3402,7 @@
   },
   {
     "Player": "Jordan Hill",
-    "SALARY": "$3,911,380",
+    "SALARY": 3911380,
     "POS": "C",
     "TEAM": "MIN",
     "G": 73,
@@ -3421,7 +3421,7 @@
   },
   {
     "Player": "Jeremy Lamb",
-    "SALARY": "$6,511,628",
+    "SALARY": 6511628,
     "POS": "SG",
     "TEAM": "CHO",
     "G": 66,
@@ -3440,7 +3440,7 @@
   },
   {
     "Player": "Terrence Jones",
-    "SALARY": "$1,050,961",
+    "SALARY": 1050961,
     "POS": "PF",
     "TEAM": "NOP",
     "G": 50,
@@ -3459,7 +3459,7 @@
   },
   {
     "Player": "Luis Scola",
-    "SALARY": "$5,000,000",
+    "SALARY": 5000000,
     "POS": "PF",
     "TEAM": "BRK",
     "G": 76,
@@ -3478,7 +3478,7 @@
   },
   {
     "Player": "Cody Zeller",
-    "SALARY": "$5,318,313",
+    "SALARY": 5318313,
     "POS": "C",
     "TEAM": "CHO",
     "G": 73,
@@ -3497,7 +3497,7 @@
   },
   {
     "Player": "Tyler Johnson",
-    "SALARY": "$5,628,000",
+    "SALARY": 5628000,
     "POS": "SG",
     "TEAM": "MIA",
     "G": 36,
@@ -3516,7 +3516,7 @@
   },
   {
     "Player": "Gerald Henderson",
-    "SALARY": "$9,000,000",
+    "SALARY": 9000000,
     "POS": "SG",
     "TEAM": "PHI",
     "G": 72,
@@ -3554,7 +3554,7 @@
   },
   {
     "Player": "Tim Duncan",
-    "SALARY": "$1,881,250",
+    "SALARY": 1881250,
     "POS": "C",
     "TEAM": "SAS",
     "G": 61,
@@ -3573,7 +3573,7 @@
   },
   {
     "Player": "Shelvin Mack",
-    "SALARY": "$2,433,334",
+    "SALARY": 2433334,
     "POS": "PG",
     "TEAM": "UTA",
     "G": 52,
@@ -3592,7 +3592,7 @@
   },
   {
     "Player": "Zaza Pachulia",
-    "SALARY": "$2,898,000",
+    "SALARY": 2898000,
     "POS": "C",
     "TEAM": "GSW",
     "G": 76,
@@ -3611,7 +3611,7 @@
   },
   {
     "Player": "Taj Gibson",
-    "SALARY": "$8,950,000",
+    "SALARY": 8950000,
     "POS": "PF",
     "TEAM": "CHI",
     "G": 73,
@@ -3630,7 +3630,7 @@
   },
   {
     "Player": "Nik Stauskas",
-    "SALARY": "$2,993,040",
+    "SALARY": 2993040,
     "POS": "SG",
     "TEAM": "PHI",
     "G": 73,
@@ -3649,7 +3649,7 @@
   },
   {
     "Player": "Patrick Mills",
-    "SALARY": "$3,578,948",
+    "SALARY": 3578948,
     "POS": "PG",
     "TEAM": "SAS",
     "G": 81,
@@ -3668,7 +3668,7 @@
   },
   {
     "Player": "Cory Joseph",
-    "SALARY": "$7,330,000",
+    "SALARY": 7330000,
     "POS": "SG",
     "TEAM": "TOR",
     "G": 80,
@@ -3687,7 +3687,7 @@
   },
   {
     "Player": "Jon Leuer",
-    "SALARY": "$10,991,957",
+    "SALARY": 10991957,
     "POS": "PF",
     "TEAM": "DET",
     "G": 67,
@@ -3706,7 +3706,7 @@
   },
   {
     "Player": "Tony Wroten",
-    "SALARY": "$1,050,961",
+    "SALARY": 1050961,
     "POS": "PG",
     "TEAM": "MEM",
     "G": 8,
@@ -3725,7 +3725,7 @@
   },
   {
     "Player": "Tony Allen",
-    "SALARY": "$5,505,618",
+    "SALARY": 5505618,
     "POS": "SG",
     "TEAM": "MEM",
     "G": 64,
@@ -3744,7 +3744,7 @@
   },
   {
     "Player": "Meyers Leonard",
-    "SALARY": "$9,213,484",
+    "SALARY": 9213484,
     "POS": "PF",
     "TEAM": "POR",
     "G": 61,
@@ -3763,7 +3763,7 @@
   },
   {
     "Player": "Lance Stephenson",
-    "SALARY": "$1,227,286",
+    "SALARY": 1227286,
     "POS": "SF",
     "TEAM": "NOP",
     "G": 69,
@@ -3782,7 +3782,7 @@
   },
   {
     "Player": "Jusuf Nurkic",
-    "SALARY": "$1,921,320",
+    "SALARY": 1921320,
     "POS": "C",
     "TEAM": "DEN",
     "G": 32,
@@ -3801,7 +3801,7 @@
   },
   {
     "Player": "Mo Williams",
-    "SALARY": "$2,200,000",
+    "SALARY": 2200000,
     "POS": "PG",
     "TEAM": "CLE",
     "G": 41,
@@ -3820,7 +3820,7 @@
   },
   {
     "Player": "Lance Thomas",
-    "SALARY": "$6,191,000",
+    "SALARY": 6191000,
     "POS": "PF",
     "TEAM": "NYK",
     "G": 59,
@@ -3839,7 +3839,7 @@
   },
   {
     "Player": "Stanley Johnson",
-    "SALARY": "$2,969,880",
+    "SALARY": 2969880,
     "POS": "SF",
     "TEAM": "DET",
     "G": 73,
@@ -3858,7 +3858,7 @@
   },
   {
     "Player": "Steven Adams",
-    "SALARY": "$3,140,517",
+    "SALARY": 3140517,
     "POS": "C",
     "TEAM": "OKC",
     "G": 80,
@@ -3877,7 +3877,7 @@
   },
   {
     "Player": "P.J. Tucker",
-    "SALARY": "$5,300,000",
+    "SALARY": 5300000,
     "POS": "SF",
     "TEAM": "PHO",
     "G": 82,
@@ -3896,7 +3896,7 @@
   },
   {
     "Player": "Joffrey Lauvergne",
-    "SALARY": "$1,709,720",
+    "SALARY": 1709720,
     "POS": "C",
     "TEAM": "OKC",
     "G": 59,
@@ -3915,7 +3915,7 @@
   },
   {
     "Player": "Jared Dudley",
-    "SALARY": "$10,470,000",
+    "SALARY": 10470000,
     "POS": "PF",
     "TEAM": "PHO",
     "G": 81,
@@ -3934,7 +3934,7 @@
   },
   {
     "Player": "David Lee",
-    "SALARY": "$1,551,659",
+    "SALARY": 1551659,
     "POS": "PF",
     "TEAM": "SAS",
     "G": 55,
@@ -3953,7 +3953,7 @@
   },
   {
     "Player": "Ben McLemore",
-    "SALARY": "$4,008,882",
+    "SALARY": 4008882,
     "POS": "SG",
     "TEAM": "SAC",
     "G": 68,
@@ -3972,7 +3972,7 @@
   },
   {
     "Player": "Tristan Thompson",
-    "SALARY": "$15,330,435",
+    "SALARY": 15330435,
     "POS": "PF",
     "TEAM": "CLE",
     "G": 82,
@@ -4010,7 +4010,7 @@
   },
   {
     "Player": "Jameer Nelson",
-    "SALARY": "$4,540,525",
+    "SALARY": 4540525,
     "POS": "PG",
     "TEAM": "DEN",
     "G": 39,
@@ -4029,7 +4029,7 @@
   },
   {
     "Player": "Wayne Ellington",
-    "SALARY": "$6,000,000",
+    "SALARY": 6000000,
     "POS": "SG",
     "TEAM": "MIA",
     "G": 76,
@@ -4048,7 +4048,7 @@
   },
   {
     "Player": "Devin Harris",
-    "SALARY": "$4,228,000",
+    "SALARY": 4228000,
     "POS": "PG",
     "TEAM": "DAL",
     "G": 64,
@@ -4067,7 +4067,7 @@
   },
   {
     "Player": "Langston Galloway",
-    "SALARY": "$5,200,000",
+    "SALARY": 5200000,
     "POS": "PG",
     "TEAM": "NOP",
     "G": 82,
@@ -4086,7 +4086,7 @@
   },
   {
     "Player": "Jose Calderon",
-    "SALARY": "$7,708,427",
+    "SALARY": 7708427,
     "POS": "PG",
     "TEAM": "LAL",
     "G": 72,
@@ -4105,7 +4105,7 @@
   },
   {
     "Player": "Frank Kaminsky",
-    "SALARY": "$2,730,000",
+    "SALARY": 2730000,
     "POS": "C",
     "TEAM": "CHO",
     "G": 81,
@@ -4124,7 +4124,7 @@
   },
   {
     "Player": "D.J. Augustin",
-    "SALARY": "$7,250,000",
+    "SALARY": 7250000,
     "POS": "PG",
     "TEAM": "ORL",
     "G": 62,
@@ -4143,7 +4143,7 @@
   },
   {
     "Player": "Darrell Arthur",
-    "SALARY": "$8,070,175",
+    "SALARY": 8070175,
     "POS": "PF",
     "TEAM": "DEN",
     "G": 70,
@@ -4162,7 +4162,7 @@
   },
   {
     "Player": "E'Twaun Moore",
-    "SALARY": "$8,081,363",
+    "SALARY": 8081363,
     "POS": "SG",
     "TEAM": "NOP",
     "G": 59,
@@ -4181,7 +4181,7 @@
   },
   {
     "Player": "Matthew Dellavedova",
-    "SALARY": "$9,607,500",
+    "SALARY": 9607500,
     "POS": "PG",
     "TEAM": "MIL",
     "G": 76,
@@ -4200,7 +4200,7 @@
   },
   {
     "Player": "JaMychal Green",
-    "SALARY": "$980,431",
+    "SALARY": 980431,
     "POS": "PF",
     "TEAM": "MEM",
     "G": 78,
@@ -4219,7 +4219,7 @@
   },
   {
     "Player": "Nick Young",
-    "SALARY": "$5,443,918",
+    "SALARY": 5443918,
     "POS": "SG",
     "TEAM": "LAL",
     "G": 54,
@@ -4238,7 +4238,7 @@
   },
   {
     "Player": "Jodie Meeks",
-    "SALARY": "$6,540,000",
+    "SALARY": 6540000,
     "POS": "SG",
     "TEAM": "ORL",
     "G": 3,
@@ -4257,7 +4257,7 @@
   },
   {
     "Player": "Garrett Temple",
-    "SALARY": "$8,000,000",
+    "SALARY": 8000000,
     "POS": "SF",
     "TEAM": "WAS",
     "G": 80,
@@ -4276,7 +4276,7 @@
   },
   {
     "Player": "Amir Johnson",
-    "SALARY": "$12,000,000",
+    "SALARY": 12000000,
     "POS": "PF",
     "TEAM": "BOS",
     "G": 79,
@@ -4314,7 +4314,7 @@
   },
   {
     "Player": "Brandon Bass",
-    "SALARY": "$1,551,659",
+    "SALARY": 1551659,
     "POS": "PF",
     "TEAM": "LAC",
     "G": 66,
@@ -4333,7 +4333,7 @@
   },
   {
     "Player": "James Ennis",
-    "SALARY": "$2,898,000",
+    "SALARY": 2898000,
     "POS": "SF",
     "TEAM": "MEM",
     "G": 22,
@@ -4352,7 +4352,7 @@
   },
   {
     "Player": "Mike Dunleavy",
-    "SALARY": "$4,837,500",
+    "SALARY": 4837500,
     "POS": "SF",
     "TEAM": "CLE",
     "G": 31,
@@ -4371,7 +4371,7 @@
   },
   {
     "Player": "Jason Smith",
-    "SALARY": "$5,000,000",
+    "SALARY": 5000000,
     "POS": "C",
     "TEAM": "WAS",
     "G": 76,
@@ -4390,7 +4390,7 @@
   },
   {
     "Player": "Corey Brewer",
-    "SALARY": "$7,600,000",
+    "SALARY": 7600000,
     "POS": "SF",
     "TEAM": "HOU",
     "G": 82,
@@ -4409,7 +4409,7 @@
   },
   {
     "Player": "Danny Green",
-    "SALARY": "$10,000,000",
+    "SALARY": 10000000,
     "POS": "SG",
     "TEAM": "SAS",
     "G": 79,
@@ -4428,7 +4428,7 @@
   },
   {
     "Player": "Tyson Chandler",
-    "SALARY": "$12,415,000",
+    "SALARY": 12415000,
     "POS": "C",
     "TEAM": "PHO",
     "G": 66,
@@ -4447,7 +4447,7 @@
   },
   {
     "Player": "Marreese Speights",
-    "SALARY": "$1,403,611",
+    "SALARY": 1403611,
     "POS": "C",
     "TEAM": "LAC",
     "G": 72,
@@ -4466,7 +4466,7 @@
   },
   {
     "Player": "David West",
-    "SALARY": "$1,551,659",
+    "SALARY": 1551659,
     "POS": "PF",
     "TEAM": "GSW",
     "G": 78,
@@ -4485,7 +4485,7 @@
   },
   {
     "Player": "Aaron Brooks",
-    "SALARY": "$2,700,000",
+    "SALARY": 2700000,
     "POS": "PG",
     "TEAM": "CHI",
     "G": 69,
@@ -4504,7 +4504,7 @@
   },
   {
     "Player": "Luke Babbitt",
-    "SALARY": "$1,227,000",
+    "SALARY": 1227000,
     "POS": "SF",
     "TEAM": "MIA",
     "G": 47,
@@ -4523,7 +4523,7 @@
   },
   {
     "Player": "Clint Capela",
-    "SALARY": "$1,296,240",
+    "SALARY": 1296240,
     "POS": "C",
     "TEAM": "HOU",
     "G": 77,
@@ -4542,7 +4542,7 @@
   },
   {
     "Player": "Bobby Portis",
-    "SALARY": "$1,453,680",
+    "SALARY": 1453680,
     "POS": "PF",
     "TEAM": "CHI",
     "G": 62,
@@ -4561,7 +4561,7 @@
   },
   {
     "Player": "Willie Cauley-Stein",
-    "SALARY": "$3,551,160",
+    "SALARY": 3551160,
     "POS": "C",
     "TEAM": "SAC",
     "G": 66,
@@ -4580,7 +4580,7 @@
   },
   {
     "Player": "Festus Ezeli",
-    "SALARY": "$7,400,000",
+    "SALARY": 7400000,
     "POS": "C",
     "TEAM": "POR",
     "G": 46,
@@ -4599,7 +4599,7 @@
   },
   {
     "Player": "Andre Iguodala",
-    "SALARY": "$11,131,368",
+    "SALARY": 11131368,
     "POS": "SF",
     "TEAM": "GSW",
     "G": 65,
@@ -4618,7 +4618,7 @@
   },
   {
     "Player": "John Henson",
-    "SALARY": "$12,517,606",
+    "SALARY": 12517606,
     "POS": "C",
     "TEAM": "MIL",
     "G": 57,
@@ -4656,7 +4656,7 @@
   },
   {
     "Player": "Brandon Jennings",
-    "SALARY": "$5,000,000",
+    "SALARY": 5000000,
     "POS": "PG",
     "TEAM": "NYK",
     "G": 48,
@@ -4675,7 +4675,7 @@
   },
   {
     "Player": "Wesley Johnson",
-    "SALARY": "$5,628,000",
+    "SALARY": 5628000,
     "POS": "SF",
     "TEAM": "LAC",
     "G": 80,
@@ -4694,7 +4694,7 @@
   },
   {
     "Player": "Brandan Wright",
-    "SALARY": "$5,700,000",
+    "SALARY": 5700000,
     "POS": "PF",
     "TEAM": "MEM",
     "G": 12,
@@ -4713,7 +4713,7 @@
   },
   {
     "Player": "Patrick Patterson",
-    "SALARY": "$6,050,000",
+    "SALARY": 6050000,
     "POS": "PF",
     "TEAM": "TOR",
     "G": 79,
@@ -4732,7 +4732,7 @@
   },
   {
     "Player": "Andrew Nicholson",
-    "SALARY": "$6,088,993",
+    "SALARY": 6088993,
     "POS": "PF",
     "TEAM": "WAS",
     "G": 56,
@@ -4751,7 +4751,7 @@
   },
   {
     "Player": "Seth Curry",
-    "SALARY": "$2,898,000",
+    "SALARY": 2898000,
     "POS": "PG",
     "TEAM": "DAL",
     "G": 44,
@@ -4770,7 +4770,7 @@
   },
   {
     "Player": "Kosta Koufos",
-    "SALARY": "$8,046,500",
+    "SALARY": 8046500,
     "POS": "C",
     "TEAM": "SAC",
     "G": 78,
@@ -4789,7 +4789,7 @@
   },
   {
     "Player": "Andrea Bargnani",
-    "SALARY": "$323,599",
+    "SALARY": 323599,
     "POS": "C",
     "TEAM": "BRK",
     "G": 46,
@@ -4808,7 +4808,7 @@
   },
   {
     "Player": "Josh Richardson",
-    "SALARY": "$874,636",
+    "SALARY": 874636,
     "POS": "SG",
     "TEAM": "MIA",
     "G": 52,
@@ -4827,7 +4827,7 @@
   },
   {
     "Player": "Vince Carter",
-    "SALARY": "$4,264,057",
+    "SALARY": 4264057,
     "POS": "SG",
     "TEAM": "MEM",
     "G": 60,
@@ -4846,7 +4846,7 @@
   },
   {
     "Player": "Kris Humphries",
-    "SALARY": "$4,000,000",
+    "SALARY": 4000000,
     "POS": "PF",
     "TEAM": "ATL",
     "G": 53,
@@ -4865,7 +4865,7 @@
   },
   {
     "Player": "Ed Davis",
-    "SALARY": "$6,666,667",
+    "SALARY": 6666667,
     "POS": "PF",
     "TEAM": "POR",
     "G": 81,
@@ -4903,7 +4903,7 @@
   },
   {
     "Player": "Tim Hardaway",
-    "SALARY": "$2,281,605",
+    "SALARY": 2281605,
     "POS": "SG",
     "TEAM": "ATL",
     "G": 51,
@@ -4922,7 +4922,7 @@
   },
   {
     "Player": "Justise Winslow",
-    "SALARY": "$2,593,440",
+    "SALARY": 2593440,
     "POS": "SF",
     "TEAM": "MIA",
     "G": 78,
@@ -4941,7 +4941,7 @@
   },
   {
     "Player": "Thabo Sefolosha",
-    "SALARY": "$3,850,000",
+    "SALARY": 3850000,
     "POS": "SF",
     "TEAM": "ATL",
     "G": 75,
@@ -4960,7 +4960,7 @@
   },
   {
     "Player": "Leandro Barbosa",
-    "SALARY": "$4,000,000",
+    "SALARY": 4000000,
     "POS": "SG",
     "TEAM": "PHO",
     "G": 68,
@@ -4979,7 +4979,7 @@
   },
   {
     "Player": "Boris Diaw",
-    "SALARY": "$7,000,000",
+    "SALARY": 7000000,
     "POS": "PF",
     "TEAM": "UTA",
     "G": 76,
@@ -4998,7 +4998,7 @@
   },
   {
     "Player": "Maurice Harkless",
-    "SALARY": "$8,988,764",
+    "SALARY": 8988764,
     "POS": "SF",
     "TEAM": "POR",
     "G": 78,
@@ -5017,7 +5017,7 @@
   },
   {
     "Player": "Shaun Livingston",
-    "SALARY": "$5,782,450",
+    "SALARY": 5782450,
     "POS": "PG",
     "TEAM": "GSW",
     "G": 78,
@@ -5036,7 +5036,7 @@
   },
   {
     "Player": "Aron Baynes",
-    "SALARY": "$6,500,000",
+    "SALARY": 6500000,
     "POS": "C",
     "TEAM": "DET",
     "G": 81,
@@ -5055,7 +5055,7 @@
   },
   {
     "Player": "Timofey Mozgov",
-    "SALARY": "$16,000,000",
+    "SALARY": 16000000,
     "POS": "C",
     "TEAM": "LAL",
     "G": 76,
@@ -5074,7 +5074,7 @@
   },
   {
     "Player": "Mike Scott",
-    "SALARY": "$3,333,334",
+    "SALARY": 3333334,
     "POS": "PF",
     "TEAM": "ATL",
     "G": 75,
@@ -5131,7 +5131,7 @@
   },
   {
     "Player": "T.J. McConnell",
-    "SALARY": "$874,636",
+    "SALARY": 874636,
     "POS": "PG",
     "TEAM": "PHI",
     "G": 81,
@@ -5150,7 +5150,7 @@
   },
   {
     "Player": "Trey Lyles",
-    "SALARY": "$2,340,600",
+    "SALARY": 2340600,
     "POS": "PF",
     "TEAM": "UTA",
     "G": 80,
@@ -5169,7 +5169,7 @@
   },
   {
     "Player": "Dante Cunningham",
-    "SALARY": "$2,978,250",
+    "SALARY": 2978250,
     "POS": "SF",
     "TEAM": "NOP",
     "G": 80,
@@ -5188,7 +5188,7 @@
   },
   {
     "Player": "Paul Pierce",
-    "SALARY": "$3,500,000",
+    "SALARY": 3500000,
     "POS": "SF",
     "TEAM": "LAC",
     "G": 68,
@@ -5207,7 +5207,7 @@
   },
   {
     "Player": "Mario Hezonja",
-    "SALARY": "$3,909,840",
+    "SALARY": 3909840,
     "POS": "SF",
     "TEAM": "ORL",
     "G": 79,
@@ -5226,7 +5226,7 @@
   },
   {
     "Player": "Channing Frye",
-    "SALARY": "$7,806,971",
+    "SALARY": 7806971,
     "POS": "PF-C",
     "TEAM": "CLE",
     "G": 70,
@@ -5245,7 +5245,7 @@
   },
   {
     "Player": "Tyler Zeller",
-    "SALARY": "$8,000,000",
+    "SALARY": 8000000,
     "POS": "C",
     "TEAM": "BOS",
     "G": 60,
@@ -5264,7 +5264,7 @@
   },
   {
     "Player": "Jonathon Simmons",
-    "SALARY": "$874,636",
+    "SALARY": 874636,
     "POS": "SG",
     "TEAM": "SAS",
     "G": 55,
@@ -5283,7 +5283,7 @@
   },
   {
     "Player": "Alexis Ajinca",
-    "SALARY": "$4,600,000",
+    "SALARY": 4600000,
     "POS": "C",
     "TEAM": "NOP",
     "G": 59,
@@ -5302,7 +5302,7 @@
   },
   {
     "Player": "Josh Smith",
-    "SALARY": "$5,400,000",
+    "SALARY": 5400000,
     "POS": "PF",
     "TEAM": "DET",
     "G": 55,
@@ -5321,7 +5321,7 @@
   },
   {
     "Player": "Spencer Hawes",
-    "SALARY": "$6,348,759",
+    "SALARY": 6348759,
     "POS": "PF",
     "TEAM": "CHO",
     "G": 57,
@@ -5359,7 +5359,7 @@
   },
   {
     "Player": "Raul Neto",
-    "SALARY": "$937,800",
+    "SALARY": 937800,
     "POS": "PG",
     "TEAM": "UTA",
     "G": 81,
@@ -5378,7 +5378,7 @@
   },
   {
     "Player": "Jason Terry",
-    "SALARY": "$1,551,659",
+    "SALARY": 1551659,
     "POS": "SG",
     "TEAM": "MIL",
     "G": 72,
@@ -5397,7 +5397,7 @@
   },
   {
     "Player": "Randy Foye",
-    "SALARY": "$2,500,000",
+    "SALARY": 2500000,
     "POS": "SG",
     "TEAM": "BRK",
     "G": 81,
@@ -5416,7 +5416,7 @@
   },
   {
     "Player": "Roy Hibbert",
-    "SALARY": "$5,000,000",
+    "SALARY": 5000000,
     "POS": "C",
     "TEAM": "CHO",
     "G": 81,
@@ -5435,7 +5435,7 @@
   },
   {
     "Player": "Trevor Booker",
-    "SALARY": "$9,250,000",
+    "SALARY": 9250000,
     "POS": "PF",
     "TEAM": "BRK",
     "G": 79,
@@ -5492,7 +5492,7 @@
   },
   {
     "Player": "Rondae Hollis-Jefferson",
-    "SALARY": "$1,395,600",
+    "SALARY": 1395600,
     "POS": "SF",
     "TEAM": "BRK",
     "G": 29,
@@ -5511,7 +5511,7 @@
   },
   {
     "Player": "Dwight Powell",
-    "SALARY": "$8,375,000",
+    "SALARY": 8375000,
     "POS": "PF",
     "TEAM": "DAL",
     "G": 69,
@@ -5530,7 +5530,7 @@
   },
   {
     "Player": "Iman Shumpert",
-    "SALARY": "$9,700,000",
+    "SALARY": 9700000,
     "POS": "SG",
     "TEAM": "CLE",
     "G": 54,
@@ -5568,7 +5568,7 @@
   },
   {
     "Player": "Xavier Munford",
-    "SALARY": "$874,636",
+    "SALARY": 874636,
     "POS": "SG",
     "TEAM": "LAC",
     "G": 14,
@@ -5587,7 +5587,7 @@
   },
   {
     "Player": "Jarell Martin",
-    "SALARY": "$1,286,160",
+    "SALARY": 1286160,
     "POS": "PF",
     "TEAM": "MEM",
     "G": 27,
@@ -5606,7 +5606,7 @@
   },
   {
     "Player": "Ty Lawson",
-    "SALARY": "$1,315,448",
+    "SALARY": 1315448,
     "POS": "PG",
     "TEAM": "SAC",
     "G": 66,
@@ -5625,7 +5625,7 @@
   },
   {
     "Player": "Greivis Vasquez",
-    "SALARY": "$4,347,826",
+    "SALARY": 4347826,
     "POS": "PG",
     "TEAM": "BRK",
     "G": 23,
@@ -5644,7 +5644,7 @@
   },
   {
     "Player": "Norman Powell",
-    "SALARY": "$874,636",
+    "SALARY": 874636,
     "POS": "SG",
     "TEAM": "TOR",
     "G": 49,
@@ -5663,7 +5663,7 @@
   },
   {
     "Player": "Richaun Holmes",
-    "SALARY": "$1,025,831",
+    "SALARY": 1025831,
     "POS": "PF",
     "TEAM": "PHI",
     "G": 51,
@@ -5682,7 +5682,7 @@
   },
   {
     "Player": "Jerian Grant",
-    "SALARY": "$1,643,040",
+    "SALARY": 1643040,
     "POS": "PG",
     "TEAM": "CHI",
     "G": 76,
@@ -5701,7 +5701,7 @@
   },
   {
     "Player": "Troy Daniels",
-    "SALARY": "$3,332,940",
+    "SALARY": 3332940,
     "POS": "SG",
     "TEAM": "MEM",
     "G": 43,
@@ -5720,7 +5720,7 @@
   },
   {
     "Player": "Anthony Morrow",
-    "SALARY": "$3,488,000",
+    "SALARY": 3488000,
     "POS": "SG",
     "TEAM": "OKC",
     "G": 68,
@@ -5739,7 +5739,7 @@
   },
   {
     "Player": "Tiago Splitter",
-    "SALARY": "$8,550,000",
+    "SALARY": 8550000,
     "POS": "C",
     "TEAM": "ATL",
     "G": 36,
@@ -5777,7 +5777,7 @@
   },
   {
     "Player": "Larry Nance Jr.",
-    "SALARY": "$1,207,680",
+    "SALARY": 1207680,
     "POS": "PF",
     "TEAM": "LAL",
     "G": 63,
@@ -5796,7 +5796,7 @@
   },
   {
     "Player": "Richard Jefferson",
-    "SALARY": "$2,500,000",
+    "SALARY": 2500000,
     "POS": "SF",
     "TEAM": "CLE",
     "G": 74,
@@ -5815,7 +5815,7 @@
   },
   {
     "Player": "Boban Marjanovic",
-    "SALARY": "$7,000,000",
+    "SALARY": 7000000,
     "POS": "C",
     "TEAM": "DET",
     "G": 54,
@@ -5834,7 +5834,7 @@
   },
   {
     "Player": "Cole Aldrich",
-    "SALARY": "$7,643,979",
+    "SALARY": 7643979,
     "POS": "C",
     "TEAM": "MIN",
     "G": 60,
@@ -5853,7 +5853,7 @@
   },
   {
     "Player": "Bismack Biyombo",
-    "SALARY": "$17,000,000",
+    "SALARY": 17000000,
     "POS": "C",
     "TEAM": "ORL",
     "G": 82,
@@ -5872,7 +5872,7 @@
   },
   {
     "Player": "Lavoy Allen",
-    "SALARY": "$4,000,000",
+    "SALARY": 4000000,
     "POS": "PF",
     "TEAM": "IND",
     "G": 79,
@@ -5891,7 +5891,7 @@
   },
   {
     "Player": "Andrew Bogut",
-    "SALARY": "$11,027,027",
+    "SALARY": 11027027,
     "POS": "C",
     "TEAM": "DAL",
     "G": 70,
@@ -5910,7 +5910,7 @@
   },
   {
     "Player": "Tony Snell",
-    "SALARY": "$2,368,327",
+    "SALARY": 2368327,
     "POS": "SF",
     "TEAM": "CHI",
     "G": 64,
@@ -5929,7 +5929,7 @@
   },
   {
     "Player": "Ronnie Price",
-    "SALARY": "$2,557,545",
+    "SALARY": 2557545,
     "POS": "PG",
     "TEAM": "OKC",
     "G": 62,
@@ -5948,7 +5948,7 @@
   },
   {
     "Player": "Anthony Tolliver",
-    "SALARY": "$8,000,000",
+    "SALARY": 8000000,
     "POS": "PF",
     "TEAM": "SAC",
     "G": 72,
@@ -5967,7 +5967,7 @@
   },
   {
     "Player": "Quincy Acy",
-    "SALARY": "$1,050,961",
+    "SALARY": 1050961,
     "POS": "PF",
     "TEAM": "DAL",
     "G": 59,
@@ -5986,7 +5986,7 @@
   },
   {
     "Player": "JaKarr Sampson",
-    "SALARY": "$980,431",
+    "SALARY": 980431,
     "POS": "SF",
     "TEAM": "DEN",
     "G": 73,
@@ -6005,7 +6005,7 @@
   },
   {
     "Player": "JaVale McGee",
-    "SALARY": "$1,403,611",
+    "SALARY": 1403611,
     "POS": "C",
     "TEAM": "GSW",
     "G": 34,
@@ -6024,7 +6024,7 @@
   },
   {
     "Player": "Tim Frazier",
-    "SALARY": "$2,090,000",
+    "SALARY": 2090000,
     "POS": "PG",
     "TEAM": "NOP",
     "G": 51,
@@ -6043,7 +6043,7 @@
   },
   {
     "Player": "Nemanja Bjelica",
-    "SALARY": "$3,800,000",
+    "SALARY": 3800000,
     "POS": "PF",
     "TEAM": "MIN",
     "G": 60,
@@ -6062,7 +6062,7 @@
   },
   {
     "Player": "Miles Plumlee",
-    "SALARY": "$12,500,000",
+    "SALARY": 12500000,
     "POS": "C",
     "TEAM": "MIL",
     "G": 61,
@@ -6100,7 +6100,7 @@
   },
   {
     "Player": "Alan Anderson",
-    "SALARY": "$1,315,448",
+    "SALARY": 1315448,
     "POS": "SG",
     "TEAM": "WAS",
     "G": 13,
@@ -6119,7 +6119,7 @@
   },
   {
     "Player": "Cameron Payne",
-    "SALARY": "$2,112,480",
+    "SALARY": 2112480,
     "POS": "PG",
     "TEAM": "OKC",
     "G": 57,
@@ -6138,7 +6138,7 @@
   },
   {
     "Player": "James Johnson",
-    "SALARY": "$4,000,000",
+    "SALARY": 4000000,
     "POS": "PF",
     "TEAM": "MIA",
     "G": 57,
@@ -6176,7 +6176,7 @@
   },
   {
     "Player": "Sasha Vujacic",
-    "SALARY": "$1,410,598",
+    "SALARY": 1410598,
     "POS": "SG",
     "TEAM": "NYK",
     "G": 61,
@@ -6195,7 +6195,7 @@
   },
   {
     "Player": "Spencer Dinwiddie",
-    "SALARY": "$980,431",
+    "SALARY": 980431,
     "POS": "PG",
     "TEAM": "CHI",
     "G": 12,
@@ -6214,7 +6214,7 @@
   },
   {
     "Player": "Andre Roberson",
-    "SALARY": "$2,183,072",
+    "SALARY": 2183072,
     "POS": "SG",
     "TEAM": "OKC",
     "G": 70,
@@ -6233,7 +6233,7 @@
   },
   {
     "Player": "Kyle O'Quinn",
-    "SALARY": "$3,900,000",
+    "SALARY": 3900000,
     "POS": "PF",
     "TEAM": "NYK",
     "G": 65,
@@ -6252,7 +6252,7 @@
   },
   {
     "Player": "Willie Reed",
-    "SALARY": "$1,015,696",
+    "SALARY": 1015696,
     "POS": "PF",
     "TEAM": "MIA",
     "G": 39,
@@ -6271,7 +6271,7 @@
   },
   {
     "Player": "Chris McCullough",
-    "SALARY": "$1,191,480",
+    "SALARY": 1191480,
     "POS": "PF",
     "TEAM": "BRK",
     "G": 24,
@@ -6290,7 +6290,7 @@
   },
   {
     "Player": "Beno Udrih",
-    "SALARY": "$1,551,659",
+    "SALARY": 1551659,
     "POS": "PG",
     "TEAM": "MIA",
     "G": 44,
@@ -6309,7 +6309,7 @@
   },
   {
     "Player": "Jordan McRae",
-    "SALARY": "$874,636",
+    "SALARY": 874636,
     "POS": "PG",
     "TEAM": "CLE",
     "G": 22,
@@ -6328,7 +6328,7 @@
   },
   {
     "Player": "Justin Holiday",
-    "SALARY": "$1,015,696",
+    "SALARY": 1015696,
     "POS": "SG",
     "TEAM": "NYK",
     "G": 53,
@@ -6347,7 +6347,7 @@
   },
   {
     "Player": "Kyle Anderson",
-    "SALARY": "$1,192,080",
+    "SALARY": 1192080,
     "POS": "SF",
     "TEAM": "SAS",
     "G": 78,
@@ -6366,7 +6366,7 @@
   },
   {
     "Player": "Alonzo Gee",
-    "SALARY": "$1,400,000",
+    "SALARY": 1400000,
     "POS": "SF",
     "TEAM": "NOP",
     "G": 73,
@@ -6385,7 +6385,7 @@
   },
   {
     "Player": "Marcelo Huertas",
-    "SALARY": "$1,500,000",
+    "SALARY": 1500000,
     "POS": "PG",
     "TEAM": "LAL",
     "G": 53,
@@ -6404,7 +6404,7 @@
   },
   {
     "Player": "Tyler Ennis",
-    "SALARY": "$1,733,880",
+    "SALARY": 1733880,
     "POS": "PG",
     "TEAM": "MIL",
     "G": 46,
@@ -6423,7 +6423,7 @@
   },
   {
     "Player": "Nikola Pekovic",
-    "SALARY": "$12,100,000",
+    "SALARY": 12100000,
     "POS": "C",
     "TEAM": "MIN",
     "G": 12,
@@ -6442,7 +6442,7 @@
   },
   {
     "Player": "Briante Weber",
-    "SALARY": "$874,636",
+    "SALARY": 874636,
     "POS": "PG",
     "TEAM": "MIA",
     "G": 7,
@@ -6461,7 +6461,7 @@
   },
   {
     "Player": "Dewayne Dedmon",
-    "SALARY": "$2,898,000",
+    "SALARY": 2898000,
     "POS": "C",
     "TEAM": "SAS",
     "G": 58,
@@ -6480,7 +6480,7 @@
   },
   {
     "Player": "Jonas Jerebko",
-    "SALARY": "$5,000,000",
+    "SALARY": 5000000,
     "POS": "PF",
     "TEAM": "BOS",
     "G": 78,
@@ -6518,7 +6518,7 @@
   },
   {
     "Player": "Jeff Withey",
-    "SALARY": "$1,015,696",
+    "SALARY": 1015696,
     "POS": "C",
     "TEAM": "UTA",
     "G": 51,
@@ -6537,7 +6537,7 @@
   },
   {
     "Player": "Thomas Robinson",
-    "SALARY": "$1,050,961",
+    "SALARY": 1050961,
     "POS": "PF",
     "TEAM": "LAL",
     "G": 71,
@@ -6556,7 +6556,7 @@
   },
   {
     "Player": "C.J. Watson",
-    "SALARY": "$5,000,000",
+    "SALARY": 5000000,
     "POS": "PG",
     "TEAM": "ORL",
     "G": 33,
@@ -6575,7 +6575,7 @@
   },
   {
     "Player": "Joakim Noah",
-    "SALARY": "$17,000,000",
+    "SALARY": 17000000,
     "POS": "C",
     "TEAM": "NYK",
     "G": 29,
@@ -6594,7 +6594,7 @@
   },
   {
     "Player": "Tyus Jones",
-    "SALARY": "$1,339,680",
+    "SALARY": 1339680,
     "POS": "PG",
     "TEAM": "MIN",
     "G": 37,
@@ -6613,7 +6613,7 @@
   },
   {
     "Player": "Joe Ingles",
-    "SALARY": "$2,250,000",
+    "SALARY": 2250000,
     "POS": "SF",
     "TEAM": "UTA",
     "G": 81,
@@ -6632,7 +6632,7 @@
   },
   {
     "Player": "Brandon Rush",
-    "SALARY": "$3,500,000",
+    "SALARY": 3500000,
     "POS": "SG",
     "TEAM": "MIN",
     "G": 72,
@@ -6651,7 +6651,7 @@
   },
   {
     "Player": "Solomon Hill",
-    "SALARY": "$11,241,218",
+    "SALARY": 11241218,
     "POS": "SF",
     "TEAM": "NOP",
     "G": 59,
@@ -6689,7 +6689,7 @@
   },
   {
     "Player": "John Jenkins",
-    "SALARY": "$1,050,961",
+    "SALARY": 1050961,
     "POS": "SG",
     "TEAM": "PHO",
     "G": 43,
@@ -6708,7 +6708,7 @@
   },
   {
     "Player": "Elton Brand",
-    "SALARY": "$1,551,659",
+    "SALARY": 1551659,
     "POS": "C",
     "TEAM": "PHI",
     "G": 17,
@@ -6746,7 +6746,7 @@
   },
   {
     "Player": "Darrun Hilliard",
-    "SALARY": "$874,060",
+    "SALARY": 874060,
     "POS": "SG",
     "TEAM": "DET",
     "G": 38,
@@ -6765,7 +6765,7 @@
   },
   {
     "Player": "Anthony Brown",
-    "SALARY": "$874,636",
+    "SALARY": 874636,
     "POS": "SF",
     "TEAM": "LAL",
     "G": 29,
@@ -6784,7 +6784,7 @@
   },
   {
     "Player": "Brian Roberts",
-    "SALARY": "$1,050,961",
+    "SALARY": 1050961,
     "POS": "PG",
     "TEAM": "CHO",
     "G": 51,
@@ -6803,7 +6803,7 @@
   },
   {
     "Player": "Rakeem Christmas",
-    "SALARY": "$1,052,342",
+    "SALARY": 1052342,
     "POS": "PF",
     "TEAM": "IND",
     "G": 1,
@@ -6822,7 +6822,7 @@
   },
   {
     "Player": "Omer Asik",
-    "SALARY": "$9,904,494",
+    "SALARY": 9904494,
     "POS": "C",
     "TEAM": "NOP",
     "G": 68,
@@ -6841,7 +6841,7 @@
   },
   {
     "Player": "Chris Andersen",
-    "SALARY": "$1,551,659",
+    "SALARY": 1551659,
     "POS": "C",
     "TEAM": "CLE",
     "G": 27,
@@ -6860,7 +6860,7 @@
   },
   {
     "Player": "Kevin Seraphin",
-    "SALARY": "$1,800,000",
+    "SALARY": 1800000,
     "POS": "C",
     "TEAM": "IND",
     "G": 48,
@@ -6879,7 +6879,7 @@
   },
   {
     "Player": "Glenn Robinson",
-    "SALARY": "$1,050,500",
+    "SALARY": 1050500,
     "POS": "SF",
     "TEAM": "IND",
     "G": 45,
@@ -6898,7 +6898,7 @@
   },
   {
     "Player": "Joseph Young",
-    "SALARY": "$1,052,342",
+    "SALARY": 1052342,
     "POS": "PG",
     "TEAM": "IND",
     "G": 41,
@@ -6917,7 +6917,7 @@
   },
   {
     "Player": "Justin Anderson",
-    "SALARY": "$1,514,160",
+    "SALARY": 1514160,
     "POS": "SF",
     "TEAM": "DAL",
     "G": 55,
@@ -6936,7 +6936,7 @@
   },
   {
     "Player": "Delon Wright",
-    "SALARY": "$1,577,280",
+    "SALARY": 1577280,
     "POS": "PG",
     "TEAM": "TOR",
     "G": 27,
@@ -6955,7 +6955,7 @@
   },
   {
     "Player": "Caron Butler",
-    "SALARY": "$517,220",
+    "SALARY": 517220,
     "POS": "SF",
     "TEAM": "SAC",
     "G": 17,
@@ -6974,7 +6974,7 @@
   },
   {
     "Player": "Salah Mejri",
-    "SALARY": "$874,636",
+    "SALARY": 874636,
     "POS": "C",
     "TEAM": "DAL",
     "G": 34,
@@ -6993,7 +6993,7 @@
   },
   {
     "Player": "Orlando Johnson",
-    "SALARY": "$1,015,696",
+    "SALARY": 1015696,
     "POS": "SG",
     "TEAM": "MIL",
     "G": 7,
@@ -7012,7 +7012,7 @@
   },
   {
     "Player": "Shabazz Napier",
-    "SALARY": "$1,350,120",
+    "SALARY": 1350120,
     "POS": "PG",
     "TEAM": "POR",
     "G": 55,
@@ -7031,7 +7031,7 @@
   },
   {
     "Player": "James Jones",
-    "SALARY": "$1,551,659",
+    "SALARY": 1551659,
     "POS": "SF",
     "TEAM": "CLE",
     "G": 48,
@@ -7050,7 +7050,7 @@
   },
   {
     "Player": "Kelly Oubre",
-    "SALARY": "$2,006,640",
+    "SALARY": 2006640,
     "POS": "SF",
     "TEAM": "WAS",
     "G": 63,
@@ -7107,7 +7107,7 @@
   },
   {
     "Player": "Christian Wood",
-    "SALARY": "$874,636",
+    "SALARY": 874636,
     "POS": "PF",
     "TEAM": "CHO",
     "G": 17,
@@ -7126,7 +7126,7 @@
   },
   {
     "Player": "Axel Toupane",
-    "SALARY": "$874,636",
+    "SALARY": 874636,
     "POS": "SF",
     "TEAM": "DEN",
     "G": 21,
@@ -7145,7 +7145,7 @@
   },
   {
     "Player": "Montrezl Harrell",
-    "SALARY": "$1,000,000",
+    "SALARY": 1000000,
     "POS": "PF",
     "TEAM": "HOU",
     "G": 39,
@@ -7164,7 +7164,7 @@
   },
   {
     "Player": "Ian Clark",
-    "SALARY": "$1,015,696",
+    "SALARY": 1015696,
     "POS": "SG",
     "TEAM": "GSW",
     "G": 66,
@@ -7183,7 +7183,7 @@
   },
   {
     "Player": "Noah Vonleh",
-    "SALARY": "$2,751,360",
+    "SALARY": 2751360,
     "POS": "PF",
     "TEAM": "POR",
     "G": 78,
@@ -7202,7 +7202,7 @@
   },
   {
     "Player": "Josh McRoberts",
-    "SALARY": "$5,782,450",
+    "SALARY": 5782450,
     "POS": "PF",
     "TEAM": "MIA",
     "G": 42,
@@ -7221,7 +7221,7 @@
   },
   {
     "Player": "Robert Sacre",
-    "SALARY": "$1,050,961",
+    "SALARY": 1050961,
     "POS": "C",
     "TEAM": "NOP",
     "G": 25,
@@ -7240,7 +7240,7 @@
   },
   {
     "Player": "Jordan Adams",
-    "SALARY": "$1,465,080",
+    "SALARY": 1465080,
     "POS": "SG",
     "TEAM": "MEM",
     "G": 2,
@@ -7278,7 +7278,7 @@
   },
   {
     "Player": "Cristiano Felicio",
-    "SALARY": "$874,636",
+    "SALARY": 874636,
     "POS": "C",
     "TEAM": "CHI",
     "G": 31,
@@ -7297,7 +7297,7 @@
   },
   {
     "Player": "Kyle Singler",
-    "SALARY": "$4,837,500",
+    "SALARY": 4837500,
     "POS": "SF",
     "TEAM": "OKC",
     "G": 68,
@@ -7316,7 +7316,7 @@
   },
   {
     "Player": "Tarik Black",
-    "SALARY": "$6,191,000",
+    "SALARY": 6191000,
     "POS": "C",
     "TEAM": "LAL",
     "G": 39,
@@ -7354,7 +7354,7 @@
   },
   {
     "Player": "Ray McCallum",
-    "SALARY": "$1,015,696",
+    "SALARY": 1015696,
     "POS": "PG",
     "TEAM": "DET",
     "G": 41,
@@ -7373,7 +7373,7 @@
   },
   {
     "Player": "Phil Pressey",
-    "SALARY": "$1,015,696",
+    "SALARY": 1015696,
     "POS": "PG",
     "TEAM": "GSW",
     "G": 23,
@@ -7392,7 +7392,7 @@
   },
   {
     "Player": "Mike Muscala",
-    "SALARY": "$1,015,696",
+    "SALARY": 1015696,
     "POS": "C",
     "TEAM": "ATL",
     "G": 60,
@@ -7411,7 +7411,7 @@
   },
   {
     "Player": "Reggie Bullock",
-    "SALARY": "$2,255,644",
+    "SALARY": 2255644,
     "POS": "SF",
     "TEAM": "DET",
     "G": 37,
@@ -7430,7 +7430,7 @@
   },
   {
     "Player": "Kevin Garnett",
-    "SALARY": "$8,000,000",
+    "SALARY": 8000000,
     "POS": "PF",
     "TEAM": "MIN",
     "G": 38,
@@ -7449,7 +7449,7 @@
   },
   {
     "Player": "Jason Thompson",
-    "SALARY": "$945,126",
+    "SALARY": 945126,
     "POS": "C",
     "TEAM": "GSW",
     "G": 47,
@@ -7468,7 +7468,7 @@
   },
   {
     "Player": "Rashad Vaughn",
-    "SALARY": "$1,811,040",
+    "SALARY": 1811040,
     "POS": "SG",
     "TEAM": "MIL",
     "G": 70,
@@ -7487,7 +7487,7 @@
   },
   {
     "Player": "Luc Mbah a Moute",
-    "SALARY": "$2,203,000",
+    "SALARY": 2203000,
     "POS": "PF",
     "TEAM": "LAC",
     "G": 75,
@@ -7506,7 +7506,7 @@
   },
   {
     "Player": "Johnny O'Bryant",
-    "SALARY": "$980,431",
+    "SALARY": 980431,
     "POS": "PF",
     "TEAM": "WAS",
     "G": 66,
@@ -7525,7 +7525,7 @@
   },
   {
     "Player": "C.J. Wilcox",
-    "SALARY": "$1,209,680",
+    "SALARY": 1209680,
     "POS": "SG",
     "TEAM": "ORL",
     "G": 23,
@@ -7582,7 +7582,7 @@
   },
   {
     "Player": "Alan Williams",
-    "SALARY": "$874,636",
+    "SALARY": 874636,
     "POS": "PF",
     "TEAM": "PHO",
     "G": 10,
@@ -7601,7 +7601,7 @@
   },
   {
     "Player": "James Michael McAdoo",
-    "SALARY": "$980,431",
+    "SALARY": 980431,
     "POS": "PF",
     "TEAM": "GSW",
     "G": 41,
@@ -7620,7 +7620,7 @@
   },
   {
     "Player": "Chris Johnson",
-    "SALARY": "$1,050,961",
+    "SALARY": 1050961,
     "POS": "SF",
     "TEAM": "UTA",
     "G": 70,
@@ -7658,7 +7658,7 @@
   },
   {
     "Player": "Josh Huestis",
-    "SALARY": "$1,191,480",
+    "SALARY": 1191480,
     "POS": "PF",
     "TEAM": "OKC",
     "G": 5,
@@ -7753,7 +7753,7 @@
   },
   {
     "Player": "R.J. Hunter",
-    "SALARY": "$1,200,240",
+    "SALARY": 1200240,
     "POS": "SG",
     "TEAM": "BOS",
     "G": 36,
@@ -7829,7 +7829,7 @@
   },
   {
     "Player": "Anderson Varejao",
-    "SALARY": "$1,551,659",
+    "SALARY": 1551659,
     "POS": "C",
     "TEAM": "GSW",
     "G": 53,
@@ -7886,7 +7886,7 @@
   },
   {
     "Player": "Lorenzo Brown",
-    "SALARY": "$1,015,696",
+    "SALARY": 1015696,
     "POS": "PG",
     "TEAM": "DET",
     "G": 8,
@@ -7905,7 +7905,7 @@
   },
   {
     "Player": "Pablo Prigioni",
-    "SALARY": "$1,050,961",
+    "SALARY": 1050961,
     "POS": "PG",
     "TEAM": "HOU",
     "G": 59,
@@ -7924,7 +7924,7 @@
   },
   {
     "Player": "Adreian Payne",
-    "SALARY": "$2,022,240",
+    "SALARY": 2022240,
     "POS": "PF",
     "TEAM": "MIN",
     "G": 52,
@@ -8000,7 +8000,7 @@
   },
   {
     "Player": "Jarell Eddie",
-    "SALARY": "$980,431",
+    "SALARY": 980431,
     "POS": "SF",
     "TEAM": "WAS",
     "G": 26,
@@ -8019,7 +8019,7 @@
   },
   {
     "Player": "Jeremy Evans",
-    "SALARY": "$1,227,286",
+    "SALARY": 1227286,
     "POS": "SF",
     "TEAM": "IND",
     "G": 30,
@@ -8038,7 +8038,7 @@
   },
   {
     "Player": "Steve Novak",
-    "SALARY": "$1,551,659",
+    "SALARY": 1551659,
     "POS": "PF",
     "TEAM": "MIL",
     "G": 10,
@@ -8057,7 +8057,7 @@
   },
   {
     "Player": "K.J. McDaniels",
-    "SALARY": "$3,333,333",
+    "SALARY": 3333333,
     "POS": "SF",
     "TEAM": "HOU",
     "G": 37,
@@ -8152,7 +8152,7 @@
   },
   {
     "Player": "Damjan Rudez",
-    "SALARY": "$980,431",
+    "SALARY": 980431,
     "POS": "SF",
     "TEAM": "ORL",
     "G": 33,
@@ -8171,7 +8171,7 @@
   },
   {
     "Player": "Walter Tavares",
-    "SALARY": "$1,000,000",
+    "SALARY": 1000000,
     "POS": "C",
     "TEAM": "ATL",
     "G": 11,
@@ -8190,7 +8190,7 @@
   },
   {
     "Player": "Lucas Nogueira",
-    "SALARY": "$1,921,320",
+    "SALARY": 1921320,
     "POS": "C",
     "TEAM": "TOR",
     "G": 29,
@@ -8209,7 +8209,7 @@
   },
   {
     "Player": "Chris Copeland",
-    "SALARY": "$1,050,961",
+    "SALARY": 1050961,
     "POS": "PF",
     "TEAM": "NOP",
     "G": 24,
@@ -8228,7 +8228,7 @@
   },
   {
     "Player": "Nick Collison",
-    "SALARY": "$3,750,000",
+    "SALARY": 3750000,
     "POS": "PF",
     "TEAM": "OKC",
     "G": 59,
@@ -8285,7 +8285,7 @@
   },
   {
     "Player": "Tibor Pleiss",
-    "SALARY": "$3,000,000",
+    "SALARY": 3000000,
     "POS": "C",
     "TEAM": "PHI",
     "G": 12,
@@ -8361,7 +8361,7 @@
   },
   {
     "Player": "Kevon Looney",
-    "SALARY": "$1,182,840",
+    "SALARY": 1182840,
     "POS": "PF",
     "TEAM": "GSW",
     "G": 5,
@@ -8380,7 +8380,7 @@
   },
   {
     "Player": "Lou Amundson",
-    "SALARY": "$1,551,659",
+    "SALARY": 1551659,
     "POS": "PF",
     "TEAM": "NYK",
     "G": 29,
@@ -8399,7 +8399,7 @@
   },
   {
     "Player": "Terry Rozier",
-    "SALARY": "$1,906,440",
+    "SALARY": 1906440,
     "POS": "PG",
     "TEAM": "BOS",
     "G": 39,
@@ -8513,7 +8513,7 @@
   },
   {
     "Player": "Elliot Williams",
-    "SALARY": "$1,227,286",
+    "SALARY": 1227286,
     "POS": "PG",
     "TEAM": "GSW",
     "G": 5,
@@ -8532,7 +8532,7 @@
   },
   {
     "Player": "Udonis Haslem",
-    "SALARY": "$4,000,000",
+    "SALARY": 4000000,
     "POS": "PF",
     "TEAM": "MIA",
     "G": 37,
@@ -8589,7 +8589,7 @@
   },
   {
     "Player": "Anthony Bennett",
-    "SALARY": "$1,015,696",
+    "SALARY": 1015696,
     "POS": "PF",
     "TEAM": "BRK",
     "G": 19,
@@ -8665,7 +8665,7 @@
   },
   {
     "Player": "Cliff Alexander",
-    "SALARY": "$874,636",
+    "SALARY": 874636,
     "POS": "PF",
     "TEAM": "ORL",
     "G": 8,
@@ -8684,7 +8684,7 @@
   },
   {
     "Player": "Jordan Mickey",
-    "SALARY": "$1,223,653",
+    "SALARY": 1223653,
     "POS": "PF",
     "TEAM": "BOS",
     "G": 16,
@@ -8703,7 +8703,7 @@
   },
   {
     "Player": "Mitch McGary",
-    "SALARY": "$1,526,040",
+    "SALARY": 1526040,
     "POS": "PF",
     "TEAM": "OKC",
     "G": 20,
@@ -8722,7 +8722,7 @@
   },
   {
     "Player": "Mike Miller",
-    "SALARY": "$3,500,000",
+    "SALARY": 3500000,
     "POS": "SF",
     "TEAM": "DEN",
     "G": 47,
@@ -8741,7 +8741,7 @@
   },
   {
     "Player": "Luis Montero",
-    "SALARY": "$874,636",
+    "SALARY": 874636,
     "POS": "SG",
     "TEAM": "POR",
     "G": 12,
@@ -8779,7 +8779,7 @@
   },
   {
     "Player": "Pat Connaughton",
-    "SALARY": "$874,636",
+    "SALARY": 874636,
     "POS": "SG",
     "TEAM": "POR",
     "G": 34,
@@ -8798,7 +8798,7 @@
   },
   {
     "Player": "Jarnell Stokes",
-    "SALARY": "$980,431",
+    "SALARY": 980431,
     "POS": "C",
     "TEAM": "DEN",
     "G": 7,
@@ -8817,7 +8817,7 @@
   },
   {
     "Player": "James Young",
-    "SALARY": "$1,825,200",
+    "SALARY": 1825200,
     "POS": "SG",
     "TEAM": "BOS",
     "G": 29,
@@ -8874,7 +8874,7 @@
   },
   {
     "Player": "Aaron Harrison",
-    "SALARY": "$874,636",
+    "SALARY": 874636,
     "POS": "SG",
     "TEAM": "CHO",
     "G": 21,
@@ -8893,7 +8893,7 @@
   },
   {
     "Player": "Sasha Kaun",
-    "SALARY": "$1,333,420",
+    "SALARY": 1333420,
     "POS": "C",
     "TEAM": "PHI",
     "G": 25,
@@ -8931,7 +8931,7 @@
   },
   {
     "Player": "Branden Dawson",
-    "SALARY": "$874,636",
+    "SALARY": 874636,
     "POS": "PF",
     "TEAM": "ORL",
     "G": 6,
@@ -8950,7 +8950,7 @@
   },
   {
     "Player": "Joe Harris",
-    "SALARY": "$980,431",
+    "SALARY": 980431,
     "POS": "SG",
     "TEAM": "BRK",
     "G": 5,
@@ -8969,7 +8969,7 @@
   },
   {
     "Player": "Bruno Caboclo",
-    "SALARY": "$1,589,640",
+    "SALARY": 1589640,
     "POS": "SF",
     "TEAM": "TOR",
     "G": 6,
@@ -8988,7 +8988,7 @@
   },
   {
     "Player": "Miroslav Raduljica",
-    "SALARY": "$300,000",
+    "SALARY": 300000,
     "POS": "N/A",
     "TEAM": "LAC",
     "G": 0,
@@ -9007,7 +9007,7 @@
   },
   {
     "Player": "Gal Mekel",
-    "SALARY": "$315,760",
+    "SALARY": 315760,
     "POS": "N/A",
     "TEAM": "DAL",
     "G": 0,
@@ -9026,7 +9026,7 @@
   },
   {
     "Player": "Aaron Gray",
-    "SALARY": "$452,059",
+    "SALARY": 452059,
     "POS": "C",
     "TEAM": "DET",
     "G": 0,
@@ -9045,7 +9045,7 @@
   },
   {
     "Player": "Zach Auguste",
-    "SALARY": "$543,471",
+    "SALARY": 543471,
     "POS": "SF",
     "TEAM": "LAL",
     "G": 0,
@@ -9064,7 +9064,7 @@
   },
   {
     "Player": "Yogi Ferrell",
-    "SALARY": "$543,471",
+    "SALARY": 543471,
     "POS": "PG",
     "TEAM": "BRK",
     "G": 0,
@@ -9083,7 +9083,7 @@
   },
   {
     "Player": "Yanick Moreira",
-    "SALARY": "$543,471",
+    "SALARY": 543471,
     "POS": "C",
     "TEAM": "TOR",
     "G": 0,
@@ -9102,7 +9102,7 @@
   },
   {
     "Player": "Wayne Selden",
-    "SALARY": "$543,471",
+    "SALARY": 543471,
     "POS": "SG",
     "TEAM": "MEM",
     "G": 0,
@@ -9121,7 +9121,7 @@
   },
   {
     "Player": "Troy Williams",
-    "SALARY": "$543,471",
+    "SALARY": 543471,
     "POS": "SF",
     "TEAM": "MEM",
     "G": 0,
@@ -9140,7 +9140,7 @@
   },
   {
     "Player": "Trey Freeman",
-    "SALARY": "$543,471",
+    "SALARY": 543471,
     "POS": "SG",
     "TEAM": "DET",
     "G": 0,
@@ -9159,7 +9159,7 @@
   },
   {
     "Player": "Treveon Graham",
-    "SALARY": "$543,471",
+    "SALARY": 543471,
     "POS": "SF",
     "TEAM": "CHO",
     "G": 0,
@@ -9178,7 +9178,7 @@
   },
   {
     "Player": "Tim Quarterman",
-    "SALARY": "$543,471",
+    "SALARY": 543471,
     "POS": "SG",
     "TEAM": "POR",
     "G": 0,
@@ -9197,7 +9197,7 @@
   },
   {
     "Player": "Stefan Jankovic",
-    "SALARY": "$543,471",
+    "SALARY": 543471,
     "POS": "SF",
     "TEAM": "MIA",
     "G": 0,
@@ -9216,7 +9216,7 @@
   },
   {
     "Player": "Sheldon McClellan",
-    "SALARY": "$543,471",
+    "SALARY": 543471,
     "POS": "SG",
     "TEAM": "WAS",
     "G": 0,
@@ -9235,7 +9235,7 @@
   },
   {
     "Player": "Shawn Long",
-    "SALARY": "$543,471",
+    "SALARY": 543471,
     "POS": "SF",
     "TEAM": "PHI",
     "G": 0,
@@ -9254,7 +9254,7 @@
   },
   {
     "Player": "Shawn Dawson",
-    "SALARY": "$543,471",
+    "SALARY": 543471,
     "POS": "SF",
     "TEAM": "NOP",
     "G": 0,
@@ -9273,7 +9273,7 @@
   },
   {
     "Player": "Shaquille Harrison",
-    "SALARY": "$543,471",
+    "SALARY": 543471,
     "POS": "N/A",
     "TEAM": "PHO",
     "G": 0,
@@ -9292,7 +9292,7 @@
   },
   {
     "Player": "Semaj Christon",
-    "SALARY": "$543,471",
+    "SALARY": 543471,
     "POS": "PG",
     "TEAM": "OKC",
     "G": 0,
@@ -9311,7 +9311,7 @@
   },
   {
     "Player": "Ryan Richards",
-    "SALARY": "$543,471",
+    "SALARY": 543471,
     "POS": "PF",
     "TEAM": "SAS",
     "G": 0,
@@ -9330,7 +9330,7 @@
   },
   {
     "Player": "Ryan Arcidiacono",
-    "SALARY": "$543,471",
+    "SALARY": 543471,
     "POS": "PG",
     "TEAM": "SAS",
     "G": 0,
@@ -9349,7 +9349,7 @@
   },
   {
     "Player": "Ron Baker",
-    "SALARY": "$543,471",
+    "SALARY": 543471,
     "POS": "SG",
     "TEAM": "NYK",
     "G": 0,
@@ -9368,7 +9368,7 @@
   },
   {
     "Player": "Rodney McGruder",
-    "SALARY": "$543,471",
+    "SALARY": 543471,
     "POS": "SG",
     "TEAM": "MIA",
     "G": 0,
@@ -9387,7 +9387,7 @@
   },
   {
     "Player": "Rasheed Sulaimon",
-    "SALARY": "$543,471",
+    "SALARY": 543471,
     "POS": "SG",
     "TEAM": "CHO",
     "G": 0,
@@ -9406,7 +9406,7 @@
   },
   {
     "Player": "Quincy Ford",
-    "SALARY": "$543,471",
+    "SALARY": 543471,
     "POS": "SF",
     "TEAM": "UTA",
     "G": 0,
@@ -9425,7 +9425,7 @@
   },
   {
     "Player": "Patrick McCaw",
-    "SALARY": "$543,471",
+    "SALARY": 543471,
     "POS": "SG",
     "TEAM": "GSW",
     "G": 0,
@@ -9444,7 +9444,7 @@
   },
   {
     "Player": "Patricio Garino",
-    "SALARY": "$543,471",
+    "SALARY": 543471,
     "POS": "SF",
     "TEAM": "SAS",
     "G": 0,
@@ -9463,7 +9463,7 @@
   },
   {
     "Player": "Okaro White",
-    "SALARY": "$543,471",
+    "SALARY": 543471,
     "POS": "SF",
     "TEAM": "MIA",
     "G": 0,
@@ -9482,7 +9482,7 @@
   },
   {
     "Player": "Nikola Jovanovic",
-    "SALARY": "$543,471",
+    "SALARY": 543471,
     "POS": "PF",
     "TEAM": "DET",
     "G": 0,
@@ -9501,7 +9501,7 @@
   },
   {
     "Player": "Nicolas Brussino",
-    "SALARY": "$543,471",
+    "SALARY": 543471,
     "POS": "SG",
     "TEAM": "DAL",
     "G": 0,
@@ -9520,7 +9520,7 @@
   },
   {
     "Player": "Nick Zeisloft",
-    "SALARY": "$543,471",
+    "SALARY": 543471,
     "POS": "SG",
     "TEAM": "IND",
     "G": 0,
@@ -9539,7 +9539,7 @@
   },
   {
     "Player": "Mike Tobey",
-    "SALARY": "$543,471",
+    "SALARY": 543471,
     "POS": "C",
     "TEAM": "CHO",
     "G": 0,
@@ -9558,7 +9558,7 @@
   },
   {
     "Player": "Maurice Ndour",
-    "SALARY": "$543,471",
+    "SALARY": 543471,
     "POS": "SF",
     "TEAM": "NYK",
     "G": 0,
@@ -9577,7 +9577,7 @@
   },
   {
     "Player": "Matt Costello",
-    "SALARY": "$543,471",
+    "SALARY": 543471,
     "POS": "C",
     "TEAM": "ATL",
     "G": 0,
@@ -9596,7 +9596,7 @@
   },
   {
     "Player": "Marshall Plumlee",
-    "SALARY": "$543,471",
+    "SALARY": 543471,
     "POS": "PF",
     "TEAM": "NYK",
     "G": 0,
@@ -9615,7 +9615,7 @@
   },
   {
     "Player": "Marcus Paige",
-    "SALARY": "$543,471",
+    "SALARY": 543471,
     "POS": "SG",
     "TEAM": "UTA",
     "G": 0,
@@ -9634,7 +9634,7 @@
   },
   {
     "Player": "Marcus Georges-Hunt",
-    "SALARY": "$543,471",
+    "SALARY": 543471,
     "POS": "SF",
     "TEAM": "BOS",
     "G": 0,
@@ -9653,7 +9653,7 @@
   },
   {
     "Player": "Kyle Collinsworth",
-    "SALARY": "$543,471",
+    "SALARY": 543471,
     "POS": "SG",
     "TEAM": "DAL",
     "G": 0,
@@ -9672,7 +9672,7 @@
   },
   {
     "Player": "Keith Hornsby",
-    "SALARY": "$543,471",
+    "SALARY": 543471,
     "POS": "SG",
     "TEAM": "DAL",
     "G": 0,
@@ -9691,7 +9691,7 @@
   },
   {
     "Player": "Kay Felder",
-    "SALARY": "$543,471",
+    "SALARY": 543471,
     "POS": "PG",
     "TEAM": "CLE",
     "G": 0,
@@ -9710,7 +9710,7 @@
   },
   {
     "Player": "Jonathan Gibson",
-    "SALARY": "$543,471",
+    "SALARY": 543471,
     "POS": "PG",
     "TEAM": "DAL",
     "G": 0,
@@ -9729,7 +9729,7 @@
   },
   {
     "Player": "Jarrod Uthoff",
-    "SALARY": "$543,471",
+    "SALARY": 543471,
     "POS": "SF",
     "TEAM": "TOR",
     "G": 0,
@@ -9748,7 +9748,7 @@
   },
   {
     "Player": "James Webb",
-    "SALARY": "$543,471",
+    "SALARY": 543471,
     "POS": "SF",
     "TEAM": "PHI",
     "G": 0,
@@ -9767,7 +9767,7 @@
   },
   {
     "Player": "Jameel Warney",
-    "SALARY": "$543,471",
+    "SALARY": 543471,
     "POS": "PF",
     "TEAM": "DAL",
     "G": 0,
@@ -9786,7 +9786,7 @@
   },
   {
     "Player": "J.P. Tokoto",
-    "SALARY": "$543,471",
+    "SALARY": 543471,
     "POS": "SF",
     "TEAM": "NYK",
     "G": 0,
@@ -9805,7 +9805,7 @@
   },
   {
     "Player": "Isaiah Cousins",
-    "SALARY": "$543,471",
+    "SALARY": 543471,
     "POS": "SG",
     "TEAM": "SAC",
     "G": 0,
@@ -9824,7 +9824,7 @@
   },
   {
     "Player": "Fred VanVleet",
-    "SALARY": "$543,471",
+    "SALARY": 543471,
     "POS": "PG",
     "TEAM": "TOR",
     "G": 0,
@@ -9843,7 +9843,7 @@
   },
   {
     "Player": "Elgin Cook",
-    "SALARY": "$543,471",
+    "SALARY": 543471,
     "POS": "SF",
     "TEAM": "GSW",
     "G": 0,
@@ -9862,7 +9862,7 @@
   },
   {
     "Player": "Egidijus Mockevicius",
-    "SALARY": "$543,471",
+    "SALARY": 543471,
     "POS": "PF",
     "TEAM": "BRK",
     "G": 0,
@@ -9881,7 +9881,7 @@
   },
   {
     "Player": "E.J. Singler",
-    "SALARY": "$543,471",
+    "SALARY": 543471,
     "POS": "SF",
     "TEAM": "TOR",
     "G": 0,
@@ -9900,7 +9900,7 @@
   },
   {
     "Player": "Drew Crawford",
-    "SALARY": "$543,471",
+    "SALARY": 543471,
     "POS": "SF",
     "TEAM": "TOR",
     "G": 0,
@@ -9919,7 +9919,7 @@
   },
   {
     "Player": "Dorian Finney-Smith",
-    "SALARY": "$543,471",
+    "SALARY": 543471,
     "POS": "SF",
     "TEAM": "DAL",
     "G": 0,
@@ -9938,7 +9938,7 @@
   },
   {
     "Player": "Diamond Stone",
-    "SALARY": "$543,471",
+    "SALARY": 543471,
     "POS": "C",
     "TEAM": "LAC",
     "G": 0,
@@ -9957,7 +9957,7 @@
   },
   {
     "Player": "Derrick Jones",
-    "SALARY": "$543,471",
+    "SALARY": 543471,
     "POS": "SF",
     "TEAM": "PHO",
     "G": 0,
@@ -9976,7 +9976,7 @@
   },
   {
     "Player": "Davis Bertans",
-    "SALARY": "$543,471",
+    "SALARY": 543471,
     "POS": "SF",
     "TEAM": "SAS",
     "G": 0,
@@ -9995,7 +9995,7 @@
   },
   {
     "Player": "Danuel House",
-    "SALARY": "$543,471",
+    "SALARY": 543471,
     "POS": "SF",
     "TEAM": "WAS",
     "G": 0,
@@ -10014,7 +10014,7 @@
   },
   {
     "Player": "Daniel Ochefu",
-    "SALARY": "$543,471",
+    "SALARY": 543471,
     "POS": "SF",
     "TEAM": "WAS",
     "G": 0,
@@ -10033,7 +10033,7 @@
   },
   {
     "Player": "Chinanu Onuaku",
-    "SALARY": "$543,471",
+    "SALARY": 543471,
     "POS": "C",
     "TEAM": "HOU",
     "G": 0,
@@ -10052,7 +10052,7 @@
   },
   {
     "Player": "Cheick Diallo",
-    "SALARY": "$543,471",
+    "SALARY": 543471,
     "POS": "PF",
     "TEAM": "NOP",
     "G": 0,
@@ -10071,7 +10071,7 @@
   },
   {
     "Player": "Chasson Randle",
-    "SALARY": "$543,471",
+    "SALARY": 543471,
     "POS": "PG",
     "TEAM": "NYK",
     "G": 0,
@@ -10090,7 +10090,7 @@
   },
   {
     "Player": "Cameron Jones",
-    "SALARY": "$543,471",
+    "SALARY": 543471,
     "POS": "SG",
     "TEAM": "GSW",
     "G": 0,
@@ -10109,7 +10109,7 @@
   },
   {
     "Player": "C.J. Williams",
-    "SALARY": "$543,471",
+    "SALARY": 543471,
     "POS": "SG",
     "TEAM": "DAL",
     "G": 0,
@@ -10128,7 +10128,7 @@
   },
   {
     "Player": "Bryn Forbes",
-    "SALARY": "$543,471",
+    "SALARY": 543471,
     "POS": "SG",
     "TEAM": "SAS",
     "G": 0,
@@ -10147,7 +10147,7 @@
   },
   {
     "Player": "Brandon Paul",
-    "SALARY": "$543,471",
+    "SALARY": 543471,
     "POS": "SG",
     "TEAM": "PHI",
     "G": 0,
@@ -10166,7 +10166,7 @@
   },
   {
     "Player": "Brady Heslip",
-    "SALARY": "$543,471",
+    "SALARY": 543471,
     "POS": "PG",
     "TEAM": "TOR",
     "G": 0,
@@ -10185,7 +10185,7 @@
   },
   {
     "Player": "Ben Bentil",
-    "SALARY": "$543,471",
+    "SALARY": 543471,
     "POS": "SF",
     "TEAM": "BOS",
     "G": 0,
@@ -10204,7 +10204,7 @@
   },
   {
     "Player": "Beau Beech",
-    "SALARY": "$543,471",
+    "SALARY": 543471,
     "POS": "SF",
     "TEAM": "BRK",
     "G": 0,
@@ -10223,7 +10223,7 @@
   },
   {
     "Player": "Andrew Andrews",
-    "SALARY": "$543,471",
+    "SALARY": 543471,
     "POS": "PG",
     "TEAM": "CHO",
     "G": 0,
@@ -10242,7 +10242,7 @@
   },
   {
     "Player": "Alex Poythress",
-    "SALARY": "$543,471",
+    "SALARY": 543471,
     "POS": "SF",
     "TEAM": "IND",
     "G": 0,
@@ -10261,7 +10261,7 @@
   },
   {
     "Player": "Joel Bolomboy",
-    "SALARY": "$600,000",
+    "SALARY": 600000,
     "POS": "PF",
     "TEAM": "UTA",
     "G": 0,
@@ -10280,7 +10280,7 @@
   },
   {
     "Player": "Jake Layman",
-    "SALARY": "$600,000",
+    "SALARY": 600000,
     "POS": "SF",
     "TEAM": "POR",
     "G": 0,
@@ -10299,7 +10299,7 @@
   },
   {
     "Player": "Michael Gbinije",
-    "SALARY": "$650,000",
+    "SALARY": 650000,
     "POS": "SF",
     "TEAM": "DET",
     "G": 0,
@@ -10318,7 +10318,7 @@
   },
   {
     "Player": "Georges Niang",
-    "SALARY": "$650,000",
+    "SALARY": 650000,
     "POS": "SF",
     "TEAM": "IND",
     "G": 0,
@@ -10337,7 +10337,7 @@
   },
   {
     "Player": "Carlos Delfino",
-    "SALARY": "$650,000",
+    "SALARY": 650000,
     "POS": "SF",
     "TEAM": "LAC",
     "G": 0,
@@ -10356,7 +10356,7 @@
   },
   {
     "Player": "A.J. Hammons",
-    "SALARY": "$650,000",
+    "SALARY": 650000,
     "POS": "C",
     "TEAM": "DAL",
     "G": 0,
@@ -10375,7 +10375,7 @@
   },
   {
     "Player": "Paul Zipser",
-    "SALARY": "$750,000",
+    "SALARY": 750000,
     "POS": "SF",
     "TEAM": "CHI",
     "G": 0,
@@ -10394,7 +10394,7 @@
   },
   {
     "Player": "Martell Webster",
-    "SALARY": "$830,000",
+    "SALARY": 830000,
     "POS": "SF",
     "TEAM": "WAS",
     "G": 0,
@@ -10413,7 +10413,7 @@
   },
   {
     "Player": "J.J. O'Brien",
-    "SALARY": "$874,636",
+    "SALARY": 874636,
     "POS": "SF",
     "TEAM": "MIL",
     "G": 2,
@@ -10432,7 +10432,7 @@
   },
   {
     "Player": "Nick Johnson",
-    "SALARY": "$874,636",
+    "SALARY": 874636,
     "POS": "SG",
     "TEAM": "ORL",
     "G": 0,
@@ -10451,7 +10451,7 @@
   },
   {
     "Player": "Lamar Patterson",
-    "SALARY": "$874,636",
+    "SALARY": 874636,
     "POS": "SG",
     "TEAM": "SAC",
     "G": 0,
@@ -10470,7 +10470,7 @@
   },
   {
     "Player": "Kevin Murphy",
-    "SALARY": "$874,636",
+    "SALARY": 874636,
     "POS": "SF",
     "TEAM": "ORL",
     "G": 0,
@@ -10489,7 +10489,7 @@
   },
   {
     "Player": "D.J. Stephens",
-    "SALARY": "$874,636",
+    "SALARY": 874636,
     "POS": "SF",
     "TEAM": "MEM",
     "G": 0,
@@ -10508,7 +10508,7 @@
   },
   {
     "Player": "D.J. Kennedy",
-    "SALARY": "$874,636",
+    "SALARY": 874636,
     "POS": "SF",
     "TEAM": "DEN",
     "G": 0,
@@ -10527,7 +10527,7 @@
   },
   {
     "Player": "Casper Ware",
-    "SALARY": "$874,636",
+    "SALARY": 874636,
     "POS": "SG",
     "TEAM": "WAS",
     "G": 0,
@@ -10546,7 +10546,7 @@
   },
   {
     "Player": "Tyler Ulis",
-    "SALARY": "$918,369",
+    "SALARY": 918369,
     "POS": "PG",
     "TEAM": "PHO",
     "G": 0,
@@ -10565,7 +10565,7 @@
   },
   {
     "Player": "Malcolm Brogdon",
-    "SALARY": "$925,000",
+    "SALARY": 925000,
     "POS": "SG",
     "TEAM": "MIL",
     "G": 0,
@@ -10584,7 +10584,7 @@
   },
   {
     "Player": "Andrew Harrison",
-    "SALARY": "$945,000",
+    "SALARY": 945000,
     "POS": "PG",
     "TEAM": "MEM",
     "G": 0,
@@ -10603,7 +10603,7 @@
   },
   {
     "Player": "Stephen Zimmerman",
-    "SALARY": "$950,000",
+    "SALARY": 950000,
     "POS": "C",
     "TEAM": "ORL",
     "G": 0,
@@ -10622,7 +10622,7 @@
   },
   {
     "Player": "Toure' Murry",
-    "SALARY": "$980,431",
+    "SALARY": 980431,
     "POS": "SG",
     "TEAM": "MIN",
     "G": 0,
@@ -10641,7 +10641,7 @@
   },
   {
     "Player": "Robbie Hummel",
-    "SALARY": "$980,431",
+    "SALARY": 980431,
     "POS": "SF",
     "TEAM": "DEN",
     "G": 0,
@@ -10660,7 +10660,7 @@
   },
   {
     "Player": "Nate Wolters",
-    "SALARY": "$980,431",
+    "SALARY": 980431,
     "POS": "SG",
     "TEAM": "DEN",
     "G": 0,
@@ -10679,7 +10679,7 @@
   },
   {
     "Player": "Grant Jerrett",
-    "SALARY": "$980,431",
+    "SALARY": 980431,
     "POS": "N/A",
     "TEAM": "POR",
     "G": 0,
@@ -10698,7 +10698,7 @@
   },
   {
     "Player": "Arinze Onuaku",
-    "SALARY": "$980,431",
+    "SALARY": 980431,
     "POS": "PF",
     "TEAM": "ORL",
     "G": 0,
@@ -10717,7 +10717,7 @@
   },
   {
     "Player": "Julyan Stone",
-    "SALARY": "$1,015,696",
+    "SALARY": 1015696,
     "POS": "PG",
     "TEAM": "IND",
     "G": 0,
@@ -10736,7 +10736,7 @@
   },
   {
     "Player": "DeAndre Liggins",
-    "SALARY": "$1,015,696",
+    "SALARY": 1015696,
     "POS": "SG",
     "TEAM": "CLE",
     "G": 0,
@@ -10755,7 +10755,7 @@
   },
   {
     "Player": "Ivica Zubac",
-    "SALARY": "$1,034,956",
+    "SALARY": 1034956,
     "POS": "C",
     "TEAM": "LAL",
     "G": 0,
@@ -10774,7 +10774,7 @@
   },
   {
     "Player": "Isaiah Whitehead",
-    "SALARY": "$1,074,145",
+    "SALARY": 1074145,
     "POS": "SG",
     "TEAM": "BRK",
     "G": 0,
@@ -10793,7 +10793,7 @@
   },
   {
     "Player": "Greg Stiemsma",
-    "SALARY": "$1,139,123",
+    "SALARY": 1139123,
     "POS": "C",
     "TEAM": "POR",
     "G": 0,
@@ -10812,7 +10812,7 @@
   },
   {
     "Player": "Damian Jones",
-    "SALARY": "$1,171,560",
+    "SALARY": 1171560,
     "POS": "C",
     "TEAM": "GSW",
     "G": 0,
@@ -10831,7 +10831,7 @@
   },
   {
     "Player": "Dejounte Murray",
-    "SALARY": "$1,180,080",
+    "SALARY": 1180080,
     "POS": "SG",
     "TEAM": "SAS",
     "G": 0,
@@ -10850,7 +10850,7 @@
   },
   {
     "Player": "Skal Labissiere",
-    "SALARY": "$1,188,840",
+    "SALARY": 1188840,
     "POS": "C",
     "TEAM": "SAC",
     "G": 0,
@@ -10869,7 +10869,7 @@
   },
   {
     "Player": "Livio Jean-Charles",
-    "SALARY": "$1,188,840",
+    "SALARY": 1188840,
     "POS": "SF",
     "TEAM": "SAS",
     "G": 0,
@@ -10888,7 +10888,7 @@
   },
   {
     "Player": "Pascal Siakam",
-    "SALARY": "$1,196,040",
+    "SALARY": 1196040,
     "POS": "SF",
     "TEAM": "TOR",
     "G": 0,
@@ -10907,7 +10907,7 @@
   },
   {
     "Player": "Brice Johnson",
-    "SALARY": "$1,273,920",
+    "SALARY": 1273920,
     "POS": "PF",
     "TEAM": "LAC",
     "G": 0,
@@ -10926,7 +10926,7 @@
   },
   {
     "Player": "Timothe Luwawu-Cabarrot",
-    "SALARY": "$1,326,960",
+    "SALARY": 1326960,
     "POS": "N/A",
     "TEAM": "PHI",
     "G": 0,
@@ -10945,7 +10945,7 @@
   },
   {
     "Player": "Deyonta Davis",
-    "SALARY": "$1,369,229",
+    "SALARY": 1369229,
     "POS": "C",
     "TEAM": "MEM",
     "G": 0,
@@ -10964,7 +10964,7 @@
   },
   {
     "Player": "Willy Hernangomez",
-    "SALARY": "$1,375,000",
+    "SALARY": 1375000,
     "POS": "C",
     "TEAM": "NYK",
     "G": 0,
@@ -10983,7 +10983,7 @@
   },
   {
     "Player": "John Lucas III",
-    "SALARY": "$1,403,611",
+    "SALARY": 1403611,
     "POS": "PG",
     "TEAM": "MIN",
     "G": 0,
@@ -11002,7 +11002,7 @@
   },
   {
     "Player": "Malachi Richardson",
-    "SALARY": "$1,439,880",
+    "SALARY": 1439880,
     "POS": "SF",
     "TEAM": "SAC",
     "G": 0,
@@ -11021,7 +11021,7 @@
   },
   {
     "Player": "Demetrius Jackson",
-    "SALARY": "$1,450,000",
+    "SALARY": 1450000,
     "POS": "SG",
     "TEAM": "BOS",
     "G": 0,
@@ -11040,7 +11040,7 @@
   },
   {
     "Player": "DeAndre' Bembry",
-    "SALARY": "$1,499,760",
+    "SALARY": 1499760,
     "POS": "SF",
     "TEAM": "ATL",
     "G": 0,
@@ -11059,7 +11059,7 @@
   },
   {
     "Player": "Caris LeVert",
-    "SALARY": "$1,562,280",
+    "SALARY": 1562280,
     "POS": "SG",
     "TEAM": "BRK",
     "G": 0,
@@ -11078,7 +11078,7 @@
   },
   {
     "Player": "Malik Beasley",
-    "SALARY": "$1,627,320",
+    "SALARY": 1627320,
     "POS": "SG",
     "TEAM": "DEN",
     "G": 0,
@@ -11097,7 +11097,7 @@
   },
   {
     "Player": "Henry Ellenson",
-    "SALARY": "$1,704,120",
+    "SALARY": 1704120,
     "POS": "PF",
     "TEAM": "DET",
     "G": 0,
@@ -11116,7 +11116,7 @@
   },
   {
     "Player": "Sam Dekker",
-    "SALARY": "$1,720,560",
+    "SALARY": 1720560,
     "POS": "SF",
     "TEAM": "HOU",
     "G": 3,
@@ -11135,7 +11135,7 @@
   },
   {
     "Player": "Wade Baldwin",
-    "SALARY": "$1,793,760",
+    "SALARY": 1793760,
     "POS": "N/A",
     "TEAM": "MEM",
     "G": 0,
@@ -11154,7 +11154,7 @@
   },
   {
     "Player": "Larry Sanders",
-    "SALARY": "$1,865,547",
+    "SALARY": 1865547,
     "POS": "C",
     "TEAM": "MIL",
     "G": 0,
@@ -11173,7 +11173,7 @@
   },
   {
     "Player": "Juan Hernangomez",
-    "SALARY": "$1,987,440",
+    "SALARY": 1987440,
     "POS": "SF",
     "TEAM": "DEN",
     "G": 0,
@@ -11192,7 +11192,7 @@
   },
   {
     "Player": "Denzel Valentine",
-    "SALARY": "$2,092,200",
+    "SALARY": 2092200,
     "POS": "SG",
     "TEAM": "CHI",
     "G": 0,
@@ -11211,7 +11211,7 @@
   },
   {
     "Player": "Georgios Papagiannis",
-    "SALARY": "$2,202,240",
+    "SALARY": 2202240,
     "POS": "C",
     "TEAM": "SAC",
     "G": 0,
@@ -11230,7 +11230,7 @@
   },
   {
     "Player": "Taurean Waller-Prince",
-    "SALARY": "$2,318,280",
+    "SALARY": 2318280,
     "POS": "N/A",
     "TEAM": "ATL",
     "G": 0,
@@ -11249,7 +11249,7 @@
   },
   {
     "Player": "Dario Saric",
-    "SALARY": "$2,318,280",
+    "SALARY": 2318280,
     "POS": "SF",
     "TEAM": "PHI",
     "G": 0,
@@ -11268,7 +11268,7 @@
   },
   {
     "Player": "Domantas Sabonis",
-    "SALARY": "$2,440,200",
+    "SALARY": 2440200,
     "POS": "PF",
     "TEAM": "OKC",
     "G": 0,
@@ -11287,7 +11287,7 @@
   },
   {
     "Player": "Malcolm Delaney",
-    "SALARY": "$2,500,000",
+    "SALARY": 2500000,
     "POS": "SG",
     "TEAM": "ATL",
     "G": 0,
@@ -11306,7 +11306,7 @@
   },
   {
     "Player": "Thon Maker",
-    "SALARY": "$2,568,600",
+    "SALARY": 2568600,
     "POS": "C",
     "TEAM": "MIL",
     "G": 0,
@@ -11325,7 +11325,7 @@
   },
   {
     "Player": "Jakob Poeltl",
-    "SALARY": "$2,703,960",
+    "SALARY": 2703960,
     "POS": "C",
     "TEAM": "TOR",
     "G": 0,
@@ -11344,7 +11344,7 @@
   },
   {
     "Player": "Tomas Satoransky",
-    "SALARY": "$2,870,813",
+    "SALARY": 2870813,
     "POS": "N/A",
     "TEAM": "WAS",
     "G": 0,
@@ -11363,7 +11363,7 @@
   },
   {
     "Player": "Mindaugas Kuzminskas",
-    "SALARY": "$2,898,000",
+    "SALARY": 2898000,
     "POS": "SF",
     "TEAM": "NYK",
     "G": 0,
@@ -11382,7 +11382,7 @@
   },
   {
     "Player": "Marquese Chriss",
-    "SALARY": "$2,941,440",
+    "SALARY": 2941440,
     "POS": "PF",
     "TEAM": "PHO",
     "G": 0,
@@ -11401,7 +11401,7 @@
   },
   {
     "Player": "Justin Hamilton",
-    "SALARY": "$3,000,000",
+    "SALARY": 3000000,
     "POS": "C",
     "TEAM": "BRK",
     "G": 0,
@@ -11420,7 +11420,7 @@
   },
   {
     "Player": "Jamal Murray",
-    "SALARY": "$3,210,840",
+    "SALARY": 3210840,
     "POS": "SG",
     "TEAM": "DEN",
     "G": 0,
@@ -11439,7 +11439,7 @@
   },
   {
     "Player": "Buddy Hield",
-    "SALARY": "$3,517,200",
+    "SALARY": 3517200,
     "POS": "SG",
     "TEAM": "NOP",
     "G": 0,
@@ -11458,7 +11458,7 @@
   },
   {
     "Player": "Quincy Pondexter",
-    "SALARY": "$3,617,978",
+    "SALARY": 3617978,
     "POS": "SG",
     "TEAM": "NOP",
     "G": 0,
@@ -11477,7 +11477,7 @@
   },
   {
     "Player": "Kris Dunn",
-    "SALARY": "$3,872,520",
+    "SALARY": 3872520,
     "POS": "PG",
     "TEAM": "MIN",
     "G": 0,
@@ -11496,7 +11496,7 @@
   },
   {
     "Player": "Dante Exum",
-    "SALARY": "$3,940,320",
+    "SALARY": 3940320,
     "POS": "PG",
     "TEAM": "UTA",
     "G": 0,
@@ -11515,7 +11515,7 @@
   },
   {
     "Player": "Dragan Bender",
-    "SALARY": "$4,276,320",
+    "SALARY": 4276320,
     "POS": "PF",
     "TEAM": "PHO",
     "G": 0,
@@ -11534,7 +11534,7 @@
   },
   {
     "Player": "Jaylen Brown",
-    "SALARY": "$4,743,000",
+    "SALARY": 4743000,
     "POS": "SF",
     "TEAM": "BOS",
     "G": 0,
@@ -11553,7 +11553,7 @@
   },
   {
     "Player": "Joel Embiid",
-    "SALARY": "$4,826,160",
+    "SALARY": 4826160,
     "POS": "C",
     "TEAM": "PHI",
     "G": 0,
@@ -11572,7 +11572,7 @@
   },
   {
     "Player": "Brandon Ingram",
-    "SALARY": "$5,281,680",
+    "SALARY": 5281680,
     "POS": "SF",
     "TEAM": "LAL",
     "G": 0,
@@ -11591,7 +11591,7 @@
   },
   {
     "Player": "Ben Simmons",
-    "SALARY": "$5,903,160",
+    "SALARY": 5903160,
     "POS": "PF",
     "TEAM": "PHI",
     "G": 0,
@@ -11610,7 +11610,7 @@
   },
   {
     "Player": "Alex Abrines",
-    "SALARY": "$5,994,764",
+    "SALARY": 5994764,
     "POS": "SF",
     "TEAM": "OKC",
     "G": 0,
@@ -11629,7 +11629,7 @@
   },
   {
     "Player": "Yi Jianlian",
-    "SALARY": "$8,000,000",
+    "SALARY": 8000000,
     "POS": "PF",
     "TEAM": "LAL",
     "G": 0,
@@ -11648,7 +11648,7 @@
   },
   {
     "Player": "Sergio Rodriguez",
-    "SALARY": "$8,000,000",
+    "SALARY": 8000000,
     "POS": "PG",
     "TEAM": "PHI",
     "G": 0,
@@ -11667,7 +11667,7 @@
   },
   {
     "Player": "Wilson Chandler",
-    "SALARY": "$11,200,000",
+    "SALARY": 11200000,
     "POS": "SF",
     "TEAM": "DEN",
     "G": 0,

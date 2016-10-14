@@ -26,7 +26,7 @@ class PlayerlistController {
 
   _handleData() {
     if(!localStorage.getItem('id')) {
-      this.Services.get('google/signin')
+      this.Services.get('/google/signin')
       .then(function( json ) {
         localStorage.setItem('id', json.data);
       });
@@ -35,6 +35,11 @@ class PlayerlistController {
 
   _addPlayer(player) {
     console.log('player', player);
+    var user_id = localStorage.getItem('id');
+    this.Services.post('/users/myteam', { user_id: user_id, player: player })
+    .then(function( json ) {
+      console.log('add player json', json);
+    });
   }
 
 
