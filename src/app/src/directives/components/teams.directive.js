@@ -1,6 +1,6 @@
 import TeamsController from '../../controllers/components/teams.controller';
 
-function MyteamDirective() {
+function TeamsDirective() {
   return {
     restrict: 'E',
     scope: {

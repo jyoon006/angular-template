@@ -12,6 +12,7 @@ import Signin from './directives/views/signin.directive';
 import Navbar from './directives/views/navbar.directive';
 import Playerlist from './directives/components/playerlist.directive';
 import Myteam from './directives/components/myteam.directive';
+import Teams from './directives/components/teams.directive';
 import Searchbar from './directives/components/searchbar.directive';
 
 angular.module('app', [
@@ -19,6 +20,7 @@ angular.module('app', [
   Navbar.name,
   Playerlist.name,
   Myteam.name,
+  Teams.name,
   Searchbar.name,
   uirouter
 ])

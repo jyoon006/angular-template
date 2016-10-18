@@ -79,8 +79,11 @@ module.exports = function(app, passport, session, Users) {
     });
   });
 
-  app.post('/users/teams/all', function(req, res) {
-
+  app.get('/users/teams/all', function(req, res) {
+    Users.find({}, function(err, users) {
+      if(err) return console.error(err);
+      else res.json(users);
+    });
   });
 }
 
