@@ -125,3 +125,20 @@ td {
   font-family: Impact, Charcoal, sans-serif;;
   font-size: 40px;
 }
+
+
+
+.myteam-list .delete-player {
+  visibility: hidden;
+}
+
+.myteam-list tr:hover .delete-player {
+  visibility: visible;
+  color: red;
+}
+
+
+
+tr:hover .delete-player  {
+  visibility: : visible;
+}

@@ -42,23 +42,45 @@ module.exports = function(app, passport, session, Users) {
 
   app.post('/users/myteam', function(req, res) {
     var user_id = req.body.data.user_id;
-    console.log(req.body.data.player);
     var player = req.body.data.player;
 
-    Users.find({ id: user_id }, function(err, user) {
+    Users.findOne({ id: user_id }, function(err, user) {
       if(err) return console.error(err);
       if(user.length === 0) return console.error('Cannot find user');
       
       else {
         console.log('user', user);
-        user[0].players.push(player);
-        user[0].save(function (err) {
+        user.players.push(player);
+        user.save(function (err) {
           if(err) return console.error(err);
-          return res.json(user);
+          else return res.json(user);
         });
       }
       
     });
+  });
+
+  app.post('/users/myteam/update', function(req, res) {
+    var user_id = req.body.data.user_id;
+    var player_name = req.body.data.player.Player;
+    Users.findOne({ id: user_id }, function(err, user) {
+
+      user.players.forEach(function(player, index, list) {
+        if( player.Player === player_name ) {
+          list.splice(index, 1);
+        }
+      });
+
+      user.save(function (err) {
+        if(err) return console.error(err);
+        else return res.json(user);
+      });
+
+    });
+  });
+
+  app.post('/users/teams/all', function(req, res) {
+
   });
 }
 

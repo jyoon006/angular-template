@@ -1,10 +1,52 @@
 <navbar></navbar>
 <div ng-controller="MyteamController as Myteam" ng-init="Myteam._getTeamData()">
-    <div class="profile-container">
-      <div class="profile-img-container">
-        <img class="profile-img" src="{{ Myteam.data.photo }}" />
-      </div>
-      <div class="profile-name">{{ Myteam.data.name }}</div>
+  <div class="profile-container">
+    <div class="profile-img-container">
+      <img class="profile-img" src="{{ Myteam.data.photo }}" />
     </div>
+    <div class="profile-name">{{ Myteam.data.name }}</div>
+  </div>
+
+  <div class="myteam-container">
+    <table class="myteam-list">
+      <thead>
+        <tr>
+          <th>Player</th>
+          <th>SALARY</th>
+          <th>POS</th>
+          <th>TEAM</th>
+          <th>FG%</th>
+          <th>FT%</th>
+          <th>3P%</th>
+          <th>TRB</th>
+          <th>STL</th>
+          <th>AST</th>
+          <th>BLK</th>
+          <th>TO</th>
+          <th>PPG</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr ng-repeat="player in Myteam.data.players">  
+
+         <td> {{ player.Player }} </td>
+         <td> {{ player.SALARY }} </td>
+         <td> {{ player.POS }} </td>
+         <td> {{ player.TEAM }} </td>
+         <td> {{ player.FGP }} </td>
+         <td> {{ player.FTP || 'N/A'}} </td>
+         <td> {{ player['3PP'] }} </td>
+         <td> {{ player.TRB}} </td>
+         <td> {{ player.STL }} </td>
+         <td> {{ player.AST }} </td>
+         <td> {{ player.BLK }} </td>
+         <td> {{ player.TO }} </td>
+         <td> {{ player.PPG }} </td>
+         <td ng-class="{'selected':$index == selectedRow}" ng-click="Myteam._deletePlayer($index, player)"><span class="delete-player">X</span></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
     
 </div>
