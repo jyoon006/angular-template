@@ -20,6 +20,10 @@ export default function($stateProvider, $urlRouterProvider, $httpProvider) {
       url: '/discussion',
       template: require('../tpl/components/discussion.html')
     })
+    .state('thread', {
+      url: '/thread',
+      template: require('../tpl/components/thread.html')
+    })
 
   $urlRouterProvider.otherwise('/');
 }

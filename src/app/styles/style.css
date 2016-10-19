@@ -76,7 +76,7 @@ td {
 }
 
 /************* Admin Page CSS **********************/
-.form-login {
+/*.form-login {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -97,7 +97,7 @@ td {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
+}*/
 
 /************** PROFILE PAGE **********************/
 
@@ -155,4 +155,94 @@ tr:hover .delete-player  {
   width: 19vw;
   display: inline-block;
   margin: 20px 0 10px 0;
+}
+
+.team-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.disc-heading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.disc-heading {
+  font-size: 30px;
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-area {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  width: 95vw;
+  margin-top: 20px;
+}
+
+.disc-topic {
+  width: 94vw;
+  height: 50px;
+  font-size: 20px;
+  border: none;
+  border-bottom: 1px solid black;
+  padding: 0;
+  padding-left: 1vw;
+}
+
+.disc-topic:focus {
+  outline: none;
+}
+
+textarea {
+  resize: none;
+  width: 94vw;
+  height: 40vh;
+  font-size: 20px;
+  border: none;
+  margin: 10px 0 0 1vw;
+  padding: 0;
+}
+
+textarea:focus {
+  outline: none;
+}
+
+.disc-btn-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  width: 94vw;
+
+}
+
+.disc-btn {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 140px;
+  height: 50px;
+  font-size: 24px;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  margin: 20px;
+  background-color: #4585BC;
+  color: white;
+}
+
+.disabled{
+  opacity: 0.5;
+  pointer-events: none;
 }

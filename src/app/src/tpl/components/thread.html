@@ -1,0 +1,16 @@
+<navbar></navbar>
+<div class="thread-container" ng-controller="ThreadController as Thread">
+  <div class="disc-heading-container">
+    <div class="disc-heading">New Discussion Thread</div>
+  </div>
+  <div class="form-container">
+    <form name="comment" class="form-area">
+      <input class="disc-topic" type="text" name="topic" placeholder="Write your topic..." ng-model="Thread.topic" ng-change="Thread._handleChange()">
+      <textarea name="text" rows="10" cols="50" placeholder="Write your message..." ng-model="Thread.message" ng-change="Thread._handleChange()" ></textarea>
+      <div class="disc-btn-container">
+        <div class="disc-btn" type="submit" name="submit" ng-click="Thread._handleSubmit()" ng-class="{'disabled': !Thread.message}">Submit</div>
+      </div>  
+      
+    </form>
+  </div>
+</div>
