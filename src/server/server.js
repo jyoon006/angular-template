@@ -13,6 +13,8 @@ var flash = require('connect-flash');
 
 var app = express();
 
+console.log('process env', process.env.callbackURL);
+
 mongoose.connect('mongodb://localhost/nbadraft');
 
 var PORT = process.env.PORT || 8000;
