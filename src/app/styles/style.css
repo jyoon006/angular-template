@@ -220,7 +220,7 @@ textarea:focus {
   outline: none;
 }
 
-.disc-btn-container {
+.disc-submit-btn-container {
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
@@ -228,7 +228,7 @@ textarea:focus {
 
 }
 
-.disc-btn {
+.disc-submit-btn {
   cursor: pointer;
   display: flex;
   justify-content: center;

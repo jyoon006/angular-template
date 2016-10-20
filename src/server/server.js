@@ -6,6 +6,7 @@ var passport = require('passport');
 var GoogleStrategy = require('passport-google-oauth').OAuth2Strategy;
 var Auth = require('../../configs/auth');
 var Users = require('./models/users.model.js');
+var Discussion = require('./models/discussion.model.js');
 var cookieParser = require('cookie-parser');
 var session = require('express-session');
 var flash = require('connect-flash');
@@ -44,7 +45,7 @@ app.use(passport.session());
 //   console.log('landing pageeeee');
 // })
 require('./passport')(app, passport, GoogleStrategy, Users, Auth);
-require('./routes')(app, passport, session, Users);
+require('./routes')(app, passport, session, Users, Discussion);
 
 app.listen(PORT, function() {
   console.log('Listening on port ' + PORT);

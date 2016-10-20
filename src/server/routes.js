@@ -1,4 +1,4 @@
-module.exports = function(app, passport, session, Users) {
+module.exports = function(app, passport, session, Users, Discussion) {
   // app.post('/', function(req, res) {
   //   console.log("landing page");
   // })
@@ -49,7 +49,6 @@ module.exports = function(app, passport, session, Users) {
       if(user.length === 0) return console.error('Cannot find user');
       
       else {
-        console.log('user', user);
         user.players.push(player);
         user.save(function (err) {
           if(err) return console.error(err);
@@ -83,6 +82,30 @@ module.exports = function(app, passport, session, Users) {
     Users.find({}, function(err, users) {
       if(err) return console.error(err);
       else res.json(users);
+    });
+  });
+
+  app.post('/discussion/newthread', function(req, res) {
+
+    console.log('bodyyyyyy', req.body.data);
+    var user_id = req.body.data.user_id;
+    var topic = req.body.data.topic;
+    var message = req.body.data.message;
+
+    Users.findOne({ id: user_id }, function(err, user) {
+      if(err) return console.error(err);
+      
+      var username = user.name;
+
+      Discussion.create({
+        creator: username,
+        topic: topic,
+        message: message
+      }, function(err, thread) {
+        if(err) return console.error(err);
+        else res.json(thread);
+      });
+
     });
   });
 }

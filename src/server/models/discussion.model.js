@@ -3,7 +3,9 @@ var Schema = mongoose.Schema;
 
 var Discussion = new Schema({
   creator: String,
-  messages: Array
+  topic: String,
+  message: String,
+  replies: Array
 });
 
 module.exports = mongoose.model('Discussion', Discussion);
