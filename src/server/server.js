@@ -18,12 +18,10 @@ var Users = require('./models/users.model.js');
 var Discussion = require('./models/discussion.model.js');
 var cookieParser = require('cookie-parser');
 var session = require('express-session');
+var MongoStore = require('connect-mongostore')(session);
 var flash = require('connect-flash');
 
 var app = express();
-
-console.log('process env', process.env.callbackURL);
-
 
 var uri = process.env.production ? process.env.MONGODB_URI : 'mongodb://localhost/nbadraft';
 mongoose.connect(uri);
@@ -46,7 +44,8 @@ app.use(session({
   secret: 'secret',
   resave: false,
   saveUninitialized: false,
-  cookie: { maxAge: 60000, secure: true }
+  cookie: { maxAge: 60000, secure: true },
+  store: new MongoStore({'db': 'sessions'})
 }));
 app.use(flash());
 // app.use(session({ secret: 'keyboard cat', cookie: { maxAge: 60000 }}))
