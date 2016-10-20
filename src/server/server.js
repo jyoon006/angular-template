@@ -44,6 +44,16 @@ app.use(passport.session());
 // app.get('/', function(req, res) {
 //   console.log('landing pageeeee');
 // })
+var googleAuth = {
+  'googleAuth': {
+    'clientID': process.env.clientID,
+    'clientSecret': process.env.clientSecret,
+    'callbackURL': process.env.callbackURL
+  }
+};
+
+Auth = Auth || googleAuth;
+
 require('./passport')(app, passport, GoogleStrategy, Users, Auth);
 require('./routes')(app, passport, session, Users, Discussion);
 
