@@ -1,6 +1,13 @@
 <navbar></navbar>
-<div class="discussion-container">
+<div class="discussion-container" ng-init="Discussion._handleData()">
   <div class="disc-btn-container">
-    <div class="disc-btn">Create New Thread</div>
+    <div class="disc-btn" ng-click="Discussion._handleClick()">Create New Thread</div>
+  </div>
+  <div class="disc-threads-container">
+    <div class="disc-thread" ng-repeat="thread in Discussion.data" ng-click="Discussion._handleThread(thread)">
+      <div class="disc-thread-creator"> {{ thread.creator }} </div>
+      <div class="disc-thread-topic"> {{ thread.topic }} </div>
+      <div class="disc-thread-message"> {{ thread.message }} </div>
+    </div>
   </div>
 </div>

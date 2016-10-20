@@ -7,6 +7,10 @@ import config from './services/config';
 /*************** API Factory *******************/
 import services from './services/services';
 
+/*************** Modules ***********************/
+import Discussion from './modules/discussion.module.js';
+import Threadtopic from './modules/threadtopic.module.js';
+
 /*************** Directives *******************/
 import Signin from './directives/views/signin.directive';
 import Navbar from './directives/views/navbar.directive';
@@ -23,6 +27,8 @@ angular.module('app', [
   Myteam.name,
   Teams.name,
   Thread.name,
+  Discussion.name,
+  Threadtopic.name,
   Searchbar.name,
   uirouter
 ])

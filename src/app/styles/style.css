@@ -242,7 +242,79 @@ textarea:focus {
   color: white;
 }
 
+
+/************ THREAD TOPIC PAGE *****************/
+
+.thread-main {
+  border: 1px solid black;
+    width: 100vw;
+}
+
+.thread-topic-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+  border-bottom: 1px solid black;
+  height: 50px;
+}
+
+.thread-topic {
+  font-size: 30px;
+  font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", "sans serif";
+}
+
+.thread-creator {
+  font-style: italic;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+}
+
+.thread-message {
+  height: 100px;
+  font-size: 22px;
+  font-family: "Lucida Sans Typewriter", "Lucida Console", monaco, "Bitstream Vera Sans Mono", monospace;
+  margin: 5px 0 0 20px;
+}
+
+.reply-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 10px 0 10px 20px;
+}
+
+.reply-message {
+  font-size: 20px;
+  font-family: Geneva, Tahoma, Verdana, sans-serif;
+}
+
+.reply-name {
+  font-style: italic;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+}
+
+.reply-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.reply-textarea {
+  resize: none;
+  width: 94vw;
+  height: 10vh;
+  font-size: 20px;
+  border: none;
+  margin: 10px 0 0 1vw;
+  padding: 0;
+}
+
+
 .disabled{
   opacity: 0.5;
   pointer-events: none;
 }
+
+

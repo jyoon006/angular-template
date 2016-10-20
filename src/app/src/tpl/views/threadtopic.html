@@ -1,0 +1,24 @@
+<navbar></navbar>
+<div class="threadtopic-container" ng-init="Threadtopic._getData()">
+  <div class="thread-main">
+    <div class="thread-topic-container">
+      <div class="thread-topic"> {{ Threadtopic.data.topic }} </div>
+      <div class="thread-creator"> by {{ Threadtopic.data.creator }} </div>
+    </div>
+    <div class="thread-message"> {{ Threadtopic.data.message }} </div>
+  </div>
+
+  <div class="reply-container" ng-repeat="reply in Threadtopic.data.replies">
+    <div class="reply-message">{{ reply.message }}</div>
+    <div class="reply-name"> by {{ reply.name }}</div>
+  </div>
+  
+  <div class="reply-form-container">
+    <form name="reply" class="form-area">
+      <textarea class="reply-textarea" name="text" rows="10" cols="50" placeholder="Write your message..." ng-model="Threadtopic.message" ng-change="Thread._handleChange()" ></textarea>
+      <div class="disc-submit-btn-container">
+        <div class="disc-submit-btn" type="submit" name="submit" ng-click="Threadtopic._handleSubmit()" ng-class="{'disabled': !Threadtopic.message}">Post</div>
+      </div>  
+    </form>  
+  </div>
+</div>

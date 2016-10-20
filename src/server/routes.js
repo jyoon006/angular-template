@@ -87,7 +87,6 @@ module.exports = function(app, passport, session, Users, Discussion) {
 
   app.post('/discussion/newthread', function(req, res) {
 
-    console.log('bodyyyyyy', req.body.data);
     var user_id = req.body.data.user_id;
     var topic = req.body.data.topic;
     var message = req.body.data.message;
@@ -106,6 +105,45 @@ module.exports = function(app, passport, session, Users, Discussion) {
         else res.json(thread);
       });
 
+    });
+  });
+
+  app.get('/discussion/threads', function(req, res) {
+    Discussion.find({}, function(err, threads) {
+      if(err) return console.error(err);
+      else res.json(threads);
+    });
+  });
+
+  app.get('/dicussion/threadtopic/:id', function(req, res) {
+    var discussion_id = req.params.id;
+
+    Discussion.findOne({ '_id': discussion_id }, function(err, thread) {
+      if(err) return console.error(err);
+      else res.json(thread);
+    });
+  });
+
+  app.post('/discussion/threads/reply', function(req, res) {
+    console.log('thread reply', req.body)
+    var thread_id = req.body.data.thread_id;
+    var user_id = req.body.data.user_id;
+    var message = req.body.data.message;
+    Discussion.findOne({ '_id': thread_id}, function(err, thread) {
+      if(err) return console.error(err);
+      console.log(thread);
+      Users.findOne({ id: user_id}, function(err, user) {
+        if(err) return console.error(err);
+
+        var username = user.name;
+
+        thread.replies.push({ name: username, message: message });
+
+        thread.save(function(err, updatedThread) {
+          if(err) return console.error(err);
+          else res.json(updatedThread);
+        });
+      });
     });
   });
 }
