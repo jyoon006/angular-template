@@ -23,7 +23,7 @@ var flash = require('connect-flash');
 
 var app = express();
 
-var uri = process.env.production ? process.env.MONGODB_URI : 'mongodb://localhost/nbadraft';
+var uri = process.env.callbackURL ? process.env.MONGODB_URI : 'mongodb://localhost/nbadraft';
 mongoose.connect(uri);
 
 var PORT = process.env.PORT || 8000;
