@@ -4,7 +4,16 @@ var morgan = require('morgan');
 var mongoose = require('mongoose');
 var passport = require('passport');
 var GoogleStrategy = require('passport-google-oauth').OAuth2Strategy;
-var Auth = require('../../configs/auth');
+
+var googleAuth = {
+  'googleAuth': {
+    'clientID': process.env.clientID,
+    'clientSecret': process.env.clientSecret,
+    'callbackURL': process.env.callbackURL
+  }
+};
+
+var Auth = !process.env.callbackURL ? require('../../configs/auth') : googleAuth;
 var Users = require('./models/users.model.js');
 var Discussion = require('./models/discussion.model.js');
 var cookieParser = require('cookie-parser');
@@ -46,15 +55,6 @@ app.use(passport.session());
 // app.get('/', function(req, res) {
 //   console.log('landing pageeeee');
 // })
-var googleAuth = {
-  'googleAuth': {
-    'clientID': process.env.clientID,
-    'clientSecret': process.env.clientSecret,
-    'callbackURL': process.env.callbackURL
-  }
-};
-
-Auth = Auth || googleAuth;
 
 require('./passport')(app, passport, GoogleStrategy, Users, Auth);
 require('./routes')(app, passport, session, Users, Discussion);
