@@ -24,7 +24,9 @@ var app = express();
 
 console.log('process env', process.env.callbackURL);
 
-mongoose.connect('mongodb://localhost/nbadraft');
+
+var uri = process.env.production ? process.env.MONGODB_URI : 'mongodb://localhost/nbadraft';
+mongoose.connect(uri);
 
 var PORT = process.env.PORT || 8000;
 
