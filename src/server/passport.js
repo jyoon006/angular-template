@@ -1,7 +1,7 @@
 module.exports = function(app, passport, GoogleStrategy, Users, Auth) {
   passport.serializeUser(function(user, done) {
     console.log('userrrrr', user);
-    done(null, user[0].id);
+    done(null, user.id);
   });
 
   passport.deserializeUser(function(id, done) {
