@@ -1,17 +1,8 @@
 module.exports = function(app, passport, session, Users, Discussion) {
-  // app.post('/', function(req, res) {
-  //   console.log("landing page");
-  // })
-
-  // app.get('/api/signin', function(req, res) {
-  //   console.log('req session', req.session);
-  //   if( req.session.cookie._expires === new Date()) {
-  //     res.send('expired');
-  //   }
-  //   else {
-  //     res.send('active');
-  //   }
-  // });
+  
+  app.get('/google/signin', function(req, res) {
+    res.json(req.user);
+  });
 
   app.get('/auth/google/logout', function(req, res) {
     req.logOut();
@@ -20,10 +11,28 @@ module.exports = function(app, passport, session, Users, Discussion) {
     });
   })
 
+  app.get('/profile', isLoggedIn, function(req, res) {
+    console.log('reqqqqqq', req.user);
+    res.redirect('/#/playerlist');
+  });
+
+  function isLoggedIn(req, res, next) {
+    console.log(req.isAuthenticated());
+    // if user is authenticated in the session, carry on
+    if (req.isAuthenticated()) {
+      console.log('is it authenticated')
+      return next();
+    }
+    // if they aren't redirect them to the home page
+    res.redirect('/');
+}
+
+
+
   app.get('/auth/google', passport.authenticate('google', { scope : ['profile', 'email'] }));
   app.get('/auth/google/callback', passport.authenticate('google', 
     { 
-      successRedirect : '/#/playerlist', 
+      successRedirect : '/profile', 
       failureRedirect : '/',
       failureFlash : true
     }

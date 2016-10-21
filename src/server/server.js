@@ -33,6 +33,15 @@ var options = {
   redirect: false
 };
 
+
+// Users.remove({}, function(err, user) {
+//   console.log('users removed', user);
+// });
+
+// Users.find({}, function(err, users) {
+//   console.log('users', users);
+// })
+
 app.use(express.static(__dirname + '/../app', options));
 app.use(morgan('tiny'));
 app.use(cookieParser('secret'));
@@ -43,7 +52,7 @@ app.use(session({
   secret: 'secret',
   resave: false,
   saveUninitialized: false,
-  cookie: { maxAge: 60000, secure: true }
+  cookie: { maxAge: 60000 }
 }));
 app.use(flash());
 // app.use(session({ secret: 'keyboard cat', cookie: { maxAge: 60000 }}))

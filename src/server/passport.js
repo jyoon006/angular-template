@@ -1,10 +1,12 @@
 module.exports = function(app, passport, GoogleStrategy, Users, Auth) {
   passport.serializeUser(function(user, done) {
     console.log('userrrrr', user);
-    done(null, user);
+    done(null, user[0].id);
   });
 
   passport.deserializeUser(function(id, done) {
+    console.log('deserializeUser', id);
+    // var id = user[0].id;
     Users.find({ id: id }, function(err, user) {
       done(err, user);
     });
@@ -16,10 +18,6 @@ module.exports = function(app, passport, GoogleStrategy, Users, Auth) {
     callbackURL: Auth.googleAuth.callbackURL
   }, function(accessToken, refreshToken, profile, done) {
 
-      app.get('/google/signin', function(req, res) {
-        res.json(profile.id);  
-      });
-
       Users.find({ id: profile.id }, function(err, user) {
           if(err) done(err);
           
@@ -27,6 +25,7 @@ module.exports = function(app, passport, GoogleStrategy, Users, Auth) {
             Users.create({
               id: profile.id,
               name: profile.displayName,
+              token: accessToken,
               email: profile.emails[0].value,
               photo: profile.photos[0].value
             }, function(err, user_data) {
@@ -38,7 +37,14 @@ module.exports = function(app, passport, GoogleStrategy, Users, Auth) {
           if(user) {
             return done(null, user);
           }
-        });
+      });
+
+
+      // app.get('/google/signin', function(req, res) {
+      //   res.json(profile.id);  
+      // });
+
+      
     }
   ));
 }
