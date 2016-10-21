@@ -37030,6 +37030,7 @@
 	    value: function _handleData() {
 	      if (!localStorage.getItem('id')) {
 	        this.Services.get('/google/signin').then(function (json) {
+	          console.log('json', json);
 	          localStorage.setItem('id', json.data);
 	        });
 	      }

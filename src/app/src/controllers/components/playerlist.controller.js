@@ -28,6 +28,7 @@ class PlayerlistController {
     if(!localStorage.getItem('id')) {
       this.Services.get('/google/signin')
       .then(function( json ) {
+        console.log('json', json);
         localStorage.setItem('id', json.data);
       });
     }
