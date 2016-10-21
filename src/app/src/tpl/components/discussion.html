@@ -5,9 +5,15 @@
   </div>
   <div class="disc-threads-container">
     <div class="disc-thread" ng-repeat="thread in Discussion.data" ng-click="Discussion._handleThread(thread)">
-      <div class="disc-thread-creator"> {{ thread.creator }} </div>
-      <div class="disc-thread-topic"> {{ thread.topic }} </div>
-      <div class="disc-thread-message"> {{ thread.message }} </div>
+      <div class="disc-thread-topic-container">
+        <div class="disc-thread-topic"> {{ thread.topic }} </div>
+        <div class="disc-thread-creator"> by {{ thread.creator }} </div>
+      </div>
+      <div class="disc-comments-container">
+        <div class="disc-comments"> {{ thread.replies.length }} comments </div>
+      </div>
+      
+      <!-- <div class="disc-thread-message"> {{ thread.message }} </div> -->
     </div>
   </div>
 </div>

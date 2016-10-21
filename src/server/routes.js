@@ -12,7 +12,6 @@ module.exports = function(app, passport, session, Users, Discussion) {
   })
 
   app.get('/profile', isLoggedIn, function(req, res) {
-    console.log('reqqqqqq', req.user);
     res.redirect('/#/playerlist');
   });
 
@@ -20,12 +19,11 @@ module.exports = function(app, passport, session, Users, Discussion) {
     console.log(req.isAuthenticated());
     // if user is authenticated in the session, carry on
     if (req.isAuthenticated()) {
-      console.log('is it authenticated')
       return next();
     }
     // if they aren't redirect them to the home page
     res.redirect('/');
-}
+  }
 
 
 

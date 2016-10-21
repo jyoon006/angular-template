@@ -36554,7 +36554,7 @@
   \************************************************/
 /***/ function(module, exports) {
 
-	module.exports = "<navbar></navbar>\n<div ng-controller=\"MyteamController as Myteam\" ng-init=\"Myteam._getTeamData()\">\n  <div class=\"profile-container\">\n    <div class=\"profile-img-container\">\n      <img class=\"profile-img\" src=\"{{ Myteam.data.photo }}\" />\n    </div>\n    <div class=\"profile-name\">{{ Myteam.data.name }}</div>\n  </div>\n\n  <div class=\"myteam-container\">\n    <table class=\"myteam-list\">\n      <thead>\n        <tr>\n          <th>Player</th>\n          <th>SALARY</th>\n          <th>POS</th>\n          <th>TEAM</th>\n          <th>FG%</th>\n          <th>FT%</th>\n          <th>3P%</th>\n          <th>TRB</th>\n          <th>STL</th>\n          <th>AST</th>\n          <th>BLK</th>\n          <th>TO</th>\n          <th>PPG</th>\n          <th></th>\n        </tr>\n      </thead>\n      <tbody>\n        <tr ng-repeat=\"player in Myteam.data.players\">  \n\n         <td> {{ player.Player }} </td>\n         <td> {{ player.SALARY }} </td>\n         <td> {{ player.POS }} </td>\n         <td> {{ player.TEAM }} </td>\n         <td> {{ player.FGP }} </td>\n         <td> {{ player.FTP || 'N/A'}} </td>\n         <td> {{ player['3PP'] }} </td>\n         <td> {{ player.TRB}} </td>\n         <td> {{ player.STL }} </td>\n         <td> {{ player.AST }} </td>\n         <td> {{ player.BLK }} </td>\n         <td> {{ player.TO }} </td>\n         <td> {{ player.PPG }} </td>\n         <td ng-class=\"{'selected':$index == selectedRow}\" ng-click=\"Myteam._deletePlayer($index, player)\"><span class=\"delete-player\">X</span></td>\n        </tr>\n      </tbody>\n    </table>\n  </div>\n    \n</div>\n"
+	module.exports = "<navbar></navbar>\n<div ng-controller=\"MyteamController as Myteam\" ng-init=\"Myteam._getTeamData()\">\n  <div class=\"profile-container\">\n    <div class=\"profile-img-container\">\n      <img class=\"profile-img\" src=\"{{ Myteam.data.photo }}\" />\n    </div>\n    <div class=\"profile-name\">{{ Myteam.data.name }}</div>\n    <div class=\"myteam-salary\"> ${{ Myteam.teamSalary }}</div>\n  </div>\n\n  <div class=\"myteam-container\">\n    <table class=\"myteam-list\">\n      <thead>\n        <tr>\n          <th>Player</th>\n          <th>SALARY</th>\n          <th>POS</th>\n          <th>TEAM</th>\n          <th>FG%</th>\n          <th>FT%</th>\n          <th>3P%</th>\n          <th>TRB</th>\n          <th>STL</th>\n          <th>AST</th>\n          <th>BLK</th>\n          <th>TO</th>\n          <th>PPG</th>\n          <th></th>\n        </tr>\n      </thead>\n      <tbody>\n        <tr ng-repeat=\"player in Myteam.data.players\">  \n\n         <td> {{ player.Player }} </td>\n         <td> {{ player.SALARY }} </td>\n         <td> {{ player.POS }} </td>\n         <td> {{ player.TEAM }} </td>\n         <td> {{ player.FGP }} </td>\n         <td> {{ player.FTP || 'N/A'}} </td>\n         <td> {{ player['3PP'] }} </td>\n         <td> {{ player.TRB}} </td>\n         <td> {{ player.STL }} </td>\n         <td> {{ player.AST }} </td>\n         <td> {{ player.BLK }} </td>\n         <td> {{ player.TO }} </td>\n         <td> {{ player.PPG }} </td>\n         <td ng-class=\"{'selected':$index == selectedRow}\" ng-click=\"Myteam._deletePlayer($index, player)\"><span class=\"delete-player\">X</span></td>\n        </tr>\n      </tbody>\n    </table>\n  </div>\n    \n</div>\n"
 
 /***/ },
 /* 8 */
@@ -36563,7 +36563,7 @@
   \***********************************************/
 /***/ function(module, exports) {
 
-	module.exports = "<navbar></navbar>\n<div ng-controller=\"TeamsController as Teams\" class=\"teams-container\" ng-init=\"Teams._getTeamsData()\">\n  <div class=\"teams-list-container\" ng-repeat=\"team in Teams.data\">\n    <div class=\"teams-list\">\n      <div class=\"team-name\"> {{ team.name }} </div>\n      <div class=\"team-list\" ng-repeat=\"player in team.players\"> \n        <div>{{player.Player}}</div>\n        <div>{{player.SALARY}}</div>\n      </div>\n    </div>\n  </div>\n</div>\n"
+	module.exports = "<navbar></navbar>\n<div ng-controller=\"TeamsController as Teams\" class=\"teams-container\" ng-init=\"Teams._getTeamsData()\">\n  <div class=\"teams-list-container\" ng-repeat=\"team in Teams.data\">\n    <div class=\"teams-list\">\n      <div class=\"team-info\">\n        <div class=\"team-name\"> {{ team.name }} </div>\n        <div class=\"team-salary\">  ${{ Teams.teamSalary }} </div>\n      </div>\n      <div class=\"team-list\" ng-repeat=\"player in team.players\"> \n        <div>{{player.Player}}</div>\n        <div>{{player.SALARY}}</div>\n      </div>\n    </div>\n  </div>\n</div>\n"
 
 /***/ },
 /* 9 */
@@ -36572,7 +36572,7 @@
   \****************************************************/
 /***/ function(module, exports) {
 
-	module.exports = "<navbar></navbar>\n<div class=\"discussion-container\" ng-init=\"Discussion._handleData()\">\n  <div class=\"disc-btn-container\">\n    <div class=\"disc-btn\" ng-click=\"Discussion._handleClick()\">Create New Thread</div>\n  </div>\n  <div class=\"disc-threads-container\">\n    <div class=\"disc-thread\" ng-repeat=\"thread in Discussion.data\" ng-click=\"Discussion._handleThread(thread)\">\n      <div class=\"disc-thread-creator\"> {{ thread.creator }} </div>\n      <div class=\"disc-thread-topic\"> {{ thread.topic }} </div>\n      <div class=\"disc-thread-message\"> {{ thread.message }} </div>\n    </div>\n  </div>\n</div>"
+	module.exports = "<navbar></navbar>\n<div class=\"discussion-container\" ng-init=\"Discussion._handleData()\">\n  <div class=\"disc-btn-container\">\n    <div class=\"disc-btn\" ng-click=\"Discussion._handleClick()\">Create New Thread</div>\n  </div>\n  <div class=\"disc-threads-container\">\n    <div class=\"disc-thread\" ng-repeat=\"thread in Discussion.data\" ng-click=\"Discussion._handleThread(thread)\">\n      <div class=\"disc-thread-topic-container\">\n        <div class=\"disc-thread-topic\"> {{ thread.topic }} </div>\n        <div class=\"disc-thread-creator\"> by {{ thread.creator }} </div>\n      </div>\n      <div class=\"disc-comments-container\">\n        <div class=\"disc-comments\"> {{ thread.replies.length }} comments </div>\n      </div>\n      \n      <!-- <div class=\"disc-thread-message\"> {{ thread.message }} </div> -->\n    </div>\n  </div>\n</div>"
 
 /***/ },
 /* 10 */
@@ -48882,7 +48882,10 @@
 	      var vm = this;
 	      var my_id = localStorage.getItem('id');
 	      this.services.post('/profile', my_id).then(function (json) {
+	        console.log(json);
 	        vm.data = json.data[0];
+	        vm.teamSalary = vm._calculateSalary(json.data[0].players);
+	        console.log(vm.teamSalary);
 	      });
 	    }
 	  }, {
@@ -48893,6 +48896,22 @@
 	      this.services.post('/users/myteam/update', { user_id: user_id, player: player }).then(function (json) {
 	        vm.$state.reload();
 	      });
+	    }
+	  }, {
+	    key: '_calculateSalary',
+	    value: function _calculateSalary(array) {
+	      console.log(array);
+	      var sum = 0;
+	
+	      array.forEach(function (player) {
+	        sum += player.SALARY;
+	      });
+	
+	      if (65000000 - sum < 0) {
+	        return -Math.abs(sum - 65000000);
+	      } else {
+	        return 65000000 - sum;
+	      }
 	    }
 	  }]);
 	
@@ -48964,7 +48983,29 @@
 	      this.Services.get('/users/teams/all').then(function (json) {
 	        console.log('all teams json', json);
 	        vm.data = json.data;
+	
+	        json.data.forEach(function (team) {
+	          vm.teamSalary = vm._calculateSalary(team.players);
+	        });
+	
+	        console.log(vm.teamSalary);
 	      });
+	    }
+	  }, {
+	    key: '_calculateSalary',
+	    value: function _calculateSalary(array) {
+	      console.log(array);
+	      var sum = 0;
+	
+	      array.forEach(function (player) {
+	        sum += player.SALARY;
+	      });
+	
+	      if (65000000 - sum < 0) {
+	        return -Math.abs(sum - 65000000);
+	      } else {
+	        return 65000000 - sum;
+	      }
 	    }
 	  }]);
 	

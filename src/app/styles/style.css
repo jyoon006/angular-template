@@ -126,7 +126,11 @@ td {
   font-size: 40px;
 }
 
-
+.myteam-salary {
+  padding-left: 70px;
+  font-family: monaco, Consolas, "Lucida Console", monospace;
+  font-size: 30px;
+}
 
 .myteam-list .delete-player {
   visibility: hidden;
@@ -157,11 +161,74 @@ tr:hover .delete-player  {
   margin: 20px 0 10px 0;
 }
 
+.team-info {
+      display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
 .team-list {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+}
+
+/**************** discussion.html ***********************/
+
+.discussion-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.disc-btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.disc-btn {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 50px;
+  font-size: 24px;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  margin: 20px;
+  background-color: #4585BC;
+  color: white;
+}
+
+.disc-thread {
+  border: 1px solid black;
+  margin-bottom: 1px;
+  cursor: pointer;
+}
+
+.disc-thread-topic-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 30px;
+}
+
+.disc-thread-topic {
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-size: 30px;
+}
+
+.disc-thread-creator {
+  font-family: Geneva, Tahoma, Verdana, sans-serif;
+  font-style: italic;
+}
+
+.disc-comments-container {
+  padding-left: 30px;
 }
 
 .disc-heading-container {

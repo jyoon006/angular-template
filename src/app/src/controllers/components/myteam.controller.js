@@ -11,8 +11,11 @@ class MyteamController {
     var my_id = localStorage.getItem('id');
     this.services.post('/profile', my_id)
     .then(function (json) {
+      console.log(json)
       vm.data = json.data[0];
-    })
+      vm.teamSalary = vm._calculateSalary(json.data[0].players);
+      console.log(vm.teamSalary)
+    });
   }
 
   _deletePlayer($index, player) {
@@ -22,6 +25,22 @@ class MyteamController {
     .then(function (json) {
       vm.$state.reload();
     });
+  }
+
+  _calculateSalary(array) {
+    console.log(array);
+    var sum = 0;
+    
+    array.forEach(function(player) {
+      sum += player.SALARY;
+    });
+
+    if(65000000 - sum < 0) {
+      return -Math.abs(sum -65000000);
+    } else {
+      return 65000000 - sum;
+    }
+    
   }
 
 }
