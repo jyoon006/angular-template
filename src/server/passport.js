@@ -1,12 +1,17 @@
 module.exports = function(app, passport, GoogleStrategy, Users, Auth) {
+  
   passport.serializeUser(function(user, done) {
-    done(null, user);
+    console.log('userrrr', user);
+    done(null, user.id);
   });
 
   passport.deserializeUser(function(id, done) {
-    Users.find({ id: id }, function(err, user) {
-      done(err, user);
+    console.log('deserializeUser', id);
+    Users.findOne({ id: id }, function(err, user) {
+      if(err) done(err, null);
+      else done(err, user);
     });
+
   });
 
   passport.use(new GoogleStrategy({
@@ -15,10 +20,11 @@ module.exports = function(app, passport, GoogleStrategy, Users, Auth) {
     callbackURL: Auth.googleAuth.callbackURL
   }, function(accessToken, refreshToken, profile, done) {
 
-      Users.find({ id: profile.id }, function(err, user) {
+    process.nextTick(function() {
+      Users.findOne({ id: profile.id }, function(err, user) {
         if(err) done(err);
         
-        if(user.length === 0) {
+        if(!user) {
           Users.create({
             id: profile.id,
             name: profile.displayName,
@@ -35,6 +41,8 @@ module.exports = function(app, passport, GoogleStrategy, Users, Auth) {
           return done(null, user);
         }
       });
+    });
+      
     
 
       

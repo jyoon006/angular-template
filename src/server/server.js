@@ -22,9 +22,6 @@ var flash = require('connect-flash');
 
 var app = express();
 
-var uri = process.env.callbackURL ? process.env.MONGODB_URI : 'mongodb://localhost/nbadraft';
-mongoose.connect(uri);
-
 var PORT = process.env.PORT || 8000;
 
 var options = {
@@ -35,7 +32,7 @@ var options = {
 
 
 // Users.remove({}, function(err, user) {
-//   console.log('users removed', user);
+//   console.log('users removed');
 // });
 
 // Users.find({}, function(err, users) {
@@ -50,19 +47,17 @@ app.use(parser.json());
 
 app.use(session({
   secret: 'secret',
-  resave: false,
-  saveUninitialized: false,
-  cookie: { maxAge: 60000 }
+  resave: true,
+  saveUninitialized: true
+  // cookie: { maxAge: 60000 }
 }));
-app.use(flash());
-// app.use(session({ secret: 'keyboard cat', cookie: { maxAge: 60000 }}))
 
 app.use(passport.initialize());
+app.use(flash());
 app.use(passport.session());
 
-// app.get('/', function(req, res) {
-//   console.log('landing pageeeee');
-// })
+var uri = process.env.callbackURL ? process.env.MONGODB_URI : 'mongodb://localhost/nbadraft';
+mongoose.connect(uri);
 
 require('./passport')(app, passport, GoogleStrategy, Users, Auth);
 require('./routes')(app, passport, session, Users, Discussion);
@@ -70,6 +65,3 @@ require('./routes')(app, passport, session, Users, Discussion);
 app.listen(PORT, function() {
   console.log('Listening on port ' + PORT);
 });
-
-// module.exports = app;
-

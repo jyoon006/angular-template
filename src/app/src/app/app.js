@@ -37031,7 +37031,7 @@
 	      if (!localStorage.getItem('id')) {
 	        this.Services.get('/google/signin').then(function (json) {
 	          console.log('json', json);
-	          localStorage.setItem('id', json.data[0].id);
+	          localStorage.setItem('id', json.data.id);
 	        });
 	      }
 	    }
